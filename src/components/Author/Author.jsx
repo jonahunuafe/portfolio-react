@@ -5,7 +5,7 @@ const Author = () => {
   return (
     <div className={classes.author}>
       <img src="" alt="author's profile picture" />
-      <h1>I'm Jonah Unuafe, frontend developer based in Nigeria.</h1>
+      <h1><span>I'm Jonah Unuafe,</span> frontend developer based in Nigeria.</h1>
       <p>I am a frontend developer from Delta State, Southern Nigeria with 5years experience in 
         web development.
       </p>
