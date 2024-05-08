@@ -3,7 +3,7 @@ import classes from "./About.module.css";
 
 const About = () => {
   return (
-    <div className={classes.about}>
+   <div className={classes.about}>
       <div className={classes.aboutTitle}>
          <h1>About me</h1>
          <img src="" alt="theme pattern" />
@@ -14,8 +14,16 @@ const About = () => {
          </div>
          <div className={classes.aboutRight}>
             <div className={classes.aboutPara}>
-               <p>I am an experience Frontend Developer with over</p>
-               <p>My passion for frontend development is not only</p>
+               <p>
+                  I am an experience Frontend Developer with half a decade of professional 
+                  expertise in the field. Throughout my career I have the priviledge of 
+                  collaborating with prestigous organization contributing to their success 
+                  and growth.
+               </p>
+               <p>
+                  My passion for frontend development is not only reflected in my extensive 
+                  experience but also in the enthusiasm and dedication I bring to each project.
+               </p>
             </div>
             <div className={classes.aboutSkills}>
                <div className={classes.aboutSkill}><p>HTML & CSS</p><hr style={{width: "90%"}} /></div>
@@ -25,7 +33,18 @@ const About = () => {
             </div>
          </div>
       </div>
-    </div>
+      <div className={classes.aboutAchievements}>
+         <div className={classes.aboutAchievement}>
+            <h1>10+</h1>
+            <p>YEARS OF EXPERIENCE</p>
+         </div>
+         <hr />
+         <div className={classes.aboutAchievement}>
+            <h1>90+</h1>
+            <p>PROJECTS COMPLETED</p>
+         </div>
+      </div>
+   </div>
   )
 }
 

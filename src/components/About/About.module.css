@@ -1,0 +1,94 @@
+.about {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   gap: 1.5rem;
+   margin: 1rem 2rem;
+   outline: 1px solid red;
+}
+
+.aboutTitle {
+   position: relative;
+}
+
+.aboutTitle h1 {
+   padding: 0rem 2rem;
+   font-weight: 600;
+
+}
+
+.aboutTitle img {
+   position: absolute;
+   bottom: 0;
+   right: 0;
+   z-index: -1;
+}
+
+.aboutSection {
+   display: flex;
+   flex-direction: column;
+   gap: 1.5rem;
+}
+
+.aboutRight {
+   display: flex;
+   flex-direction: column;
+   gap: 1.5rem;
+}
+
+.aboutPara {
+   display: flex;
+   flex-direction: column;
+   gap: 1.5rem;
+   font-weight: 500;
+   text-align: center;
+}
+
+.aboutSkills {
+   display: flex;
+   flex-direction: column;
+   gap: 1.5rem;
+}
+
+.aboutSkill {
+   display: flex;
+   gap: 2rem;
+   align-items: center;
+   transition: 0.3s;
+}
+
+@media(min-width: 768px) {
+   .about {
+      gap: 80px;
+      margin: 80px 170px;
+   }
+
+   .aboutTitle h1 {
+      padding: 0px 30px;
+      font-size: 30px;
+   }
+
+   .aboutSection {
+      gap: 80px;
+      flex-direction: row;
+   }
+
+   .aboutRight {
+      gap: 80px;
+   }
+
+   .aboutPara {
+      gap: 20px;
+      font-size: 24px;
+      text-align: left;
+   }
+
+   .aboutSkills {
+      gap: 20px;
+   }
+
+   .aboutSkill {
+      gap: 50px;
+   }
+}
