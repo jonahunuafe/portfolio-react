@@ -23,7 +23,7 @@ const Contact = () => {
                   </div>
                   <div className={styles.contactDetail}>
                      <IoLocationOutline />
-                     <p>Delta State, Nigeria</p>
+                     <p>Delta State, Nigeria.</p>
                   </div>
 
                </div>
