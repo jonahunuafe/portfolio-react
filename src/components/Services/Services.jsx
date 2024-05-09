@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from "./Services.module.css";
-import Service_Data from "../../assets/services_data";
+import Service_Data from "../data";
 import { FaArrowRight } from "react-icons/fa"
 
 const Services = () => {
