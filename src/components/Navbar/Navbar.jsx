@@ -45,7 +45,6 @@ const Navbar = () => {
             {menu === "contact" && <FaMinus className={classes.minusSign} />}
          </li>
       </ul>
-      {/* <div className={classes.navConnect}>Connect with me</div> */}
    </div>
   )
 }
