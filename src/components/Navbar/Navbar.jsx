@@ -1,8 +1,13 @@
 // import React from 'react'
+import { useState } from "react";
+import { NavLink } from "react-router-dom";
 import classes from "./Navbar.module.css";
 
 
 const Navbar = () => {
+   const [] = useState();
+
+
   return (
    <div className={classes.navbar}>
       <h1>Jonah</h1>

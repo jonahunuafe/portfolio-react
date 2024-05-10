@@ -7,11 +7,14 @@ const Footer = () => {
     <div className={classes.footer}>
       <div className={classes.footerTop}>
         <div className={classes.footerTopLeft}>
-          <p>I am a frontend developer from Nigeria with 5years of</p>
+          <p>
+            I am a frontend developer from Nigeria with 5years of experience in popular modern 
+            web technologies for fronend development.
+          </p>
         </div>
         <div className={classes.footerTopRight}>
           <div className={classes.footerEmailInput}>
-            <CiUser />
+            <CiUser className={classes.userIcon} />
             <input type="email" placeholder="Enter your email" />
           </div>
           <div className={classes.footerSubscribe}>Subscribe</div>
