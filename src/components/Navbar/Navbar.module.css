@@ -12,8 +12,14 @@
    cursor: pointer;
 }
 
+.navList a {
+   text-decoration: none;
+   color: #fff;
+}
+
 .minusSign {
    margin: auto;
+   color: #B923E1;
 }
 
 @media(min-width: 768px) {
