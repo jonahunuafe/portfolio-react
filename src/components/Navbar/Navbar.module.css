@@ -6,6 +6,15 @@
    margin: 1rem 2rem;
 }
 
+.navList li {
+   display: flex;
+   flex-direction: column;
+   cursor: pointer;
+}
+
+.minusSign {
+   margin: auto;
+}
 
 @media(min-width: 768px) {
    .navbar {

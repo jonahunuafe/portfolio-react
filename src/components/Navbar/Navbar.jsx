@@ -6,17 +6,16 @@ import classes from "./Navbar.module.css";
 
 const Navbar = () => {
    const [menu, setMenu] = useState();
-
-
+   
   return (
    <div className={classes.navbar}>
       <h1>Jonah</h1>
       <ul className={classes.navList}>
-         <li><p onClick={() => setMenu("home")}>Home</p>{menu === "home" ? <FaMinus /> : <></>}</li>
-         <li><p onClick={() => setMenu("about")}>About me</p>{menu === "about" ? <FaMinus /> : <></>}</li>
-         <li><p onClick={() => setMenu("services")}>Services</p>{menu === "services" ? <FaMinus /> : <></>}</li>
-         <li><p onClick={() => setMenu("work")}>Portfolio</p>{menu === "work" ? <FaMinus /> : <></>}</li>
-         <li><p onClick={() => setMenu("contact")}>Contact</p>{menu === "contact" ? <FaMinus /> : <></>}</li>
+         <li><p onClick={() => setMenu("home")}>Home</p>{menu === "home" ? <FaMinus className={classes.minusSign} /> : <></>}</li>
+         <li><p onClick={() => setMenu("about")}>About me</p>{menu === "about" ? <FaMinus className={classes.minusSign} /> : <></>}</li>
+         <li><p onClick={() => setMenu("services")}>Services</p>{menu === "services" ? <FaMinus className={classes.minusSign} /> : <></>}</li>
+         <li><p onClick={() => setMenu("work")}>Portfolio</p>{menu === "work" ? <FaMinus className={classes.minusSign} /> : <></>}</li>
+         <li><p onClick={() => setMenu("contact")}>Contact</p>{menu === "contact" ? <FaMinus className={classes.minusSign} /> : <></>}</li>
       </ul>
       <div className={classes.navConnect}>Connect with me</div>
    </div>
