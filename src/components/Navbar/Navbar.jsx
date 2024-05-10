@@ -1,17 +1,29 @@
-import React from 'react'
+import React, { useRef } from 'react'
 import { useState } from "react";
 import { NavLink } from 'react-router-dom';
 import { FaMinus } from "react-icons/fa";
 import classes from "./Navbar.module.css";
-
+import { RxHamburgerMenu } from "react-icons/rx";
+import { MdClose } from "react-icons/md";
 
 const Navbar = () => {
-   const [menu, setMenu] = useState("/home");
+   const [menu, setMenu] = useState("");
+   const menuRef = useRef();
+
+   const openMenu = () => {
+      menuRef.current.style.right = "0"
+   };
+
+   const closeMenu = () => {
+      menuRef.current.style.right = "-350px"
+   };
 
   return (
    <div className={classes.navbar}>
       <h1>Jonah</h1>
-      <ul className={classes.navList}>
+      <RxHamburgerMenu className={classes.openMobileNav} onClick={openMenu} />
+      <ul ref={menuRef} className={classes.navList}>
+         <MdClose  className={classes.closeMobileNav} onClick={closeMenu} />
          <li onClick={() => setMenu("home")}>
             <NavLink to="/">Home</NavLink>
             {menu === "home" && <FaMinus className={classes.minusSign} />}
@@ -33,7 +45,7 @@ const Navbar = () => {
             {menu === "contact" && <FaMinus className={classes.minusSign} />}
          </li>
       </ul>
-      <div className={classes.navConnect}>Connect with me</div>
+      {/* <div className={classes.navConnect}>Connect with me</div> */}
    </div>
   )
 }

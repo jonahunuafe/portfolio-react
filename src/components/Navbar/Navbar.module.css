@@ -1,14 +1,27 @@
 .navbar {
    display: flex;
-   flex-direction: column;
+   /* flex-direction: column; */
    align-items: center;
    justify-content: space-between;
    margin: 1rem 2rem;
 }
 
+.navList {
+   position: fixed;
+   flex-direction: column;
+   align-items: start;
+   top: 0;
+   background-color: #DA7C25;
+   text-align: center;
+   z-index: 2;
+   transition: right 0.5s;
+   right: -350px;
+}
+
 .navList li {
    display: flex;
    flex-direction: column;
+   padding: 4rem 7rem;
    cursor: pointer;
 }
 
@@ -22,10 +35,35 @@
    color: #B923E1;
 }
 
+.openMobileNav {
+   display: block;
+   position: fixed;
+   right: 2rem;
+}
+
+.closeMobileNav {
+   display: block;
+   position: relative;
+   top: 3rem;
+   left: 3rem;
+}
+
 @media(min-width: 768px) {
+   .openMobileNav, .closeMobileNav {
+      display: none;
+   }
+
    .navbar {
       flex-direction: row;
       margin: 20px 170px;
+   }
+
+   .navList {
+      position: relative;
+      flex-direction: row;
+      background-color: inherit;
+      right: 0px;
+      transition: none;
    }
 
    .navList {
@@ -37,7 +75,8 @@
    }
 
    .navList li {
-      cursor: pointer;
+      padding: 0px;
+      height: inherit;
    } 
 
    .navConnect {

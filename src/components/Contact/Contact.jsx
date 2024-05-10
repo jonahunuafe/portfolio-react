@@ -25,7 +25,6 @@ const Contact = () => {
         setResult("Form Submitted Successfully");
         event.target.reset();
       } else {
-        console.log("Error", data);
         setResult(data.message);
       }
    };
