@@ -9,11 +9,11 @@
    margin-top: 1.2rem;
 }
 
-.author h1 {
+/* .author h1 {
    text-align: center;
    font-size: 1.5em;
    font-weight: 600;
-}
+} */
 
 .author h1 span {
    background: linear-gradient(270deg, #DF8908 10%, #B415FF 100%);
@@ -69,10 +69,10 @@
       margin-top: 150px;
    }
 
-   .author h1 {
+   /* .author h1 {
       font-size: 40px;
       width: 70%;
-   }
+   } */
 
    .author p {
       width: 50%;

@@ -1,11 +1,11 @@
-// import React from 'react'
+import React from 'react';
 import classes from "./Author.module.css";
 
 const Author = () => {
   return (
     <div className={classes.author}>
       <img src="" alt="author's profile picture" />
-      <h1><span>I'm Jonah Unuafe,</span> frontend developer based in Nigeria.</h1>
+      <h1 className="text-center font-bold text-sm md:text-5xl w-3/4"><span>I'm Jonah Unuafe,</span> frontend developer based in Nigeria.</h1>
       <p>I am a frontend developer from Delta State, Southern Nigeria with 5years experience in 
         web development.
       </p>
