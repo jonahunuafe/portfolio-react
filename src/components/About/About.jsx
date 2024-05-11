@@ -3,16 +3,16 @@ import classes from "./About.module.css";
 
 const About = () => {
   return (
-   <div className="flex flex-col align-middle justify-center gap-2 mx-2 my-4 md:gap-8 md:mx-20 md:my-9">
-      <div>
-         <h1 className="text-center font-bold text-3xl">About me</h1>
+   <div className={classes.about}>
+      <div className={classes.aboutTitle}>
+         <h1>About me</h1>
       </div>
-      <div className="flex flex-col gap-2 md:flex-row md:gap-8">
+      <div className={classes.aboutSection}>
          <div className={classes.aboutLeft}>
             <img src="" alt="author's profile picture"/>
          </div>
-         <div className="flex flex-col gap-2 md:gap-8">
-            <div className="flex flex-col gap-2 font-bold align-middle md:gap-6 text-base md:text-xl">
+         <div className={classes.aboutRight}>
+            <div className={classes.aboutPara}>
                <p>
                   I am an experience Frontend Developer with half a decade of professional 
                   expertise in the field. Throughout my career I have the priviledge of 
@@ -24,7 +24,7 @@ const About = () => {
                   experience but also in the enthusiasm and dedication I bring to each project.
                </p>
             </div>
-            <div className="flex flex-col gap-2 md:gap-6">
+            <div className={classes.aboutSkills}>
                <div className={classes.aboutSkill}>
                   <p>HTML & CSS</p><hr style={{width: "20%"}}/><span>90%</span>
                </div>
@@ -35,7 +35,7 @@ const About = () => {
                   <p>React JS</p><hr style={{width: "20%"}}/><span>70%</span>
                </div>
                <div className={classes.aboutSkill}>
-                  <p>Node JS</p><hr style={{width: "20%"}}/><span>50%</span>  
+                  <p>Next JS</p><hr style={{width: "20%"}}/><span>50%</span>  
                </div>
             </div>
          </div>
