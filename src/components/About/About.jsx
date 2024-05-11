@@ -6,7 +6,6 @@ const About = () => {
    <div className="flex flex-col align-middle justify-center gap-2 mx-2 my-4 md:gap-8 md:mx-20 md:my-9">
       <div>
          <h1 className="text-center font-bold text-3xl">About me</h1>
-         {/* <img src="" alt="theme pattern" /> */}
       </div>
       <div className="flex flex-col gap-2 md:flex-row md:gap-8">
          <div className={classes.aboutLeft}>
@@ -46,7 +45,6 @@ const About = () => {
             <h1>10+</h1>
             <p>YEARS OF EXPERIENCE</p>
          </div>
-         {/* <hr /> */}
          <div className={classes.aboutAchievement}>
             <h1>90+</h1>
             <p>PROJECTS COMPLETED</p>

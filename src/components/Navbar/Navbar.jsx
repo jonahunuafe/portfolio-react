@@ -20,7 +20,7 @@ const Navbar = () => {
 
   return (
    <div className="flex align-middle justify-between mx-2 my-1 md:flex-row md:mx-20 md:my-9">
-      <h1 className="text-3xl">Jonah</h1>
+      <h1 className="text-3xl">JonahWeb</h1>
       <RxHamburgerMenu className={classes.openMobileNav} onClick={openMenu} />
       <ul ref={menuRef} className={classes.navList}>
          <MdClose  className={classes.closeMobileNav} onClick={closeMenu} />
