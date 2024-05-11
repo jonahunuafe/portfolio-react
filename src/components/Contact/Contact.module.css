@@ -4,7 +4,14 @@
    align-items: center;
    justify-content: center;
    gap: 2rem;
-   margin: 1rem 2rem;
+   width: 90%;
+   margin: auto;
+   margin-top: 3rem;
+}
+
+.contact h1, .contact h2 {
+   font-size: 1.5em;
+   font-weight: 700;
 }
 
 .contactSection {
@@ -20,7 +27,6 @@
 }
 
 .contactleft h2 {
-   font-weight: 700;
    background: linear-gradient(270deg, #DF8908 80%, #B415FF 100%);
    background-clip: text;
    -webkit-background-clip: text;
@@ -36,7 +42,7 @@
 .contactDetails {
    display: flex;
    flex-direction: column;
-   gap: 1.5rem;
+   gap: 1rem;
    color: #D8D8D8;
 }
 
@@ -49,6 +55,7 @@
 .contactRight {
    display: flex;
    flex-direction: column;
+   gap: 0.7rem;
 }
 
 .contactRight input {
@@ -58,6 +65,7 @@
    color: #A0A0A0;
    outline: none;
    font-family: Outfit;
+   /* width: 100%; */
    height: 45px;
    padding-left: 1.5rem;
 }
@@ -68,6 +76,8 @@
    background: #32323c;
    color: #A0A0A0;
    outline: none;
+   padding-top: 1rem;
+   padding-left: 1.5rem;
    font-family: Outfit;
 }
 
@@ -76,11 +86,10 @@
    color: #fff;
    background: linear-gradient(264deg, #DF8908 -5.09%, #B415FF 106.28%);
    cursor: pointer;
-   padding: 1rem 2rem;
-   margin-bottom: 2.5rem;
+   padding: 1rem;
+   margin-bottom: 3rem;
    transition: 0.3s;
-   width: 40%;
-   /* margin: auto; */
+   width: 35%;
    border-radius: 2rem;
 }
 
@@ -91,7 +100,7 @@
 @media(min-width: 768px) {
    .contact {
       gap: 80px;
-      margin: 80px 170px;
+      margin-top: 100px;
    }
 
    .contactSection {
@@ -103,7 +112,7 @@
       gap: 30px;
    }
 
-   .contactleft h2 {
+   .contactleft h2, .contact h1 {
       font-size: 40px;
    }
 
@@ -132,20 +141,19 @@
 
    .contactRight input {
       width: 700px;
-      height: 78px;
+      height: 50px;
       padding-left: 20px;
    } 
 
    .contactRight textarea {
-      width: 670px;
-      padding: 25px;
+      width: 700px;
       font-size: 20px;
    }
 
    .contactSubmit {
-      width: 150px;
+      width: 120px;
       border-radius: 50px;
       font-size: 20px;
-      padding: 15px 10px;
+      padding: 10px 20px;
    } 
 }

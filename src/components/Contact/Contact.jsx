@@ -35,7 +35,7 @@ const Contact = () => {
          <div className={styles.contactSection}>
             <div className={styles.contactleft}>
                <h2>Let's talk</h2>
-               <p>I'm currently available to take new projects so feel free to contact me</p>
+               <p>I'm currently available to take new projects so feel free to contact me.</p>
                <div className={styles.contactDetails}>
                   <div className={styles.contactDetail}>
                      <MdOutlineEmail />
@@ -64,7 +64,7 @@ const Contact = () => {
             </form>
          </div>
       </div>
-  )
+  );
 }
 
 export default Contact

@@ -2,16 +2,16 @@ import React, { useRef } from 'react'
 import { useState } from "react";
 import { NavLink } from 'react-router-dom';
 import { FaMinus } from "react-icons/fa";
-import classes from "./Navbar.module.css";
 import { RxHamburgerMenu } from "react-icons/rx";
 import { MdClose } from "react-icons/md";
+import classes from "./Navbar.module.css";
 
 const Navbar = () => {
    const [menu, setMenu] = useState("");
    const menuRef = useRef();
 
    const openMenu = () => {
-      menuRef.current.style.right = "0"
+      menuRef.current.style.right = "0px"
    };
 
    const closeMenu = () => {
@@ -19,8 +19,8 @@ const Navbar = () => {
    };
 
   return (
-   <div className="flex align-middle justify-between mx-2 my-1 md:flex-row md:mx-20 md:my-9">
-      <h1 className="text-3xl">JonahWeb</h1>
+   <div className={classes.navbar}>
+      <h1>JonahWeb</h1>
       <RxHamburgerMenu className={classes.openMobileNav} onClick={openMenu} />
       <ul ref={menuRef} className={classes.navList}>
          <MdClose  className={classes.closeMobileNav} onClick={closeMenu} />
@@ -46,7 +46,7 @@ const Navbar = () => {
          </li>
       </ul>
    </div>
-  )
+  );
 }
 
 export default Navbar;

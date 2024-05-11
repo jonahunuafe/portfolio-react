@@ -1,9 +1,10 @@
-/* .navbar {
+.navbar {
    display: flex;
    align-items: center;
    justify-content: space-between;
    margin: 1rem 2rem;
-} */
+}
+
 
 .navList {
    position: fixed;
@@ -20,7 +21,9 @@
 .navList li {
    display: flex;
    flex-direction: column;
-   padding: 4rem 6rem;
+   padding: 2rem 6.5rem;
+   /* width: 70%; */
+   /* height: 20vh; */
    gap: 0.7rem;
    font-size: 1.2em;
    cursor: pointer;
@@ -56,10 +59,10 @@
       display: none;
    }
 
-   /* .navbar {
+   .navbar {
       flex-direction: row;
       margin: 20px 170px;
-   } */
+   }
 
    .navList {
       position: relative;
