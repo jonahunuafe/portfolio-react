@@ -5,21 +5,19 @@ import { FaArrowRight } from "react-icons/fa"
 
 const MyWork = () => {
   return (
-    <div className={styles.myWork}>
-      <div className={styles.myWorkTitle}>
+      <div className={styles.myWork}>
          <h1>My latest work</h1>
+         <div className={styles.myWorkContainer}>
+            {mywork_data.map((recentWork, index) => (
+               <img key={index} src={recentWork.w_img} alt="project images" />
+            ))}
+         </div>
+         <div className={styles.showMore}>
+            <p>Show More</p>
+            <FaArrowRight />
+         </div>
       </div>
-      <div className={styles.myWorkContainer}>
-         {mywork_data.map((recentWork, index) => (
-            <img key={index} src={recentWork.w_img} alt="project images" />
-         ))}
-      </div>
-      <div className={styles.showMore}>
-         <p>Show More</p>
-         <FaArrowRight />
-      </div>
-    </div>
-  )
+  );
 }
 
 export default MyWork;
