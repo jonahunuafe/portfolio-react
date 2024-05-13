@@ -15,7 +15,7 @@ const Navbar = () => {
    };
 
    const closeMenu = () => {
-      menuRef.current.style.right = "-350px"
+      menuRef.current.style.right = "2100px"
    };
 
   return (
@@ -37,7 +37,7 @@ const Navbar = () => {
             {menu === "services" && <FaMinus className={classes.minusSign} />}
             </li>
          <li onClick={() => setMenu("work")}>
-            <NavLink to="/work">Portfolio</NavLink>
+            <NavLink to="/work">Projects</NavLink>
             {menu === "work" && <FaMinus className={classes.minusSign} />}
             </li>
          <li onClick={() => setMenu("contact")}>
