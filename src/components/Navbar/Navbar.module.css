@@ -5,6 +5,9 @@
    margin: 1rem 2rem;
 }
 
+.navbar h1 {
+   font-size: 1.8rem;
+}
 
 .navList {
    position: fixed;
@@ -62,6 +65,10 @@
    .navbar {
       flex-direction: row;
       margin: 20px 170px;
+   }
+
+   .navbar h1 {
+      font-size: 40px;
    }
 
    .navList {
