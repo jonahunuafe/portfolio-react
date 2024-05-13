@@ -39,27 +39,22 @@ const services = [
 
 export const mywork_data = [
    // {
-   //    w_no: 2,
-   //    w_name: "Payapi Multipage Website",
-   //    w_img: payapi_img
-   // },
-   // {
-   //    w_no: 3,
-   //    w_name: "Manage Landing Page",
-   //    w_img: manage_img
+   //    w_no: 1,
+   //    w_name: "Author's Photo",
+   //    w_img: ""
    // },
    {
-      w_no: 1,
+      w_no: 2,
       w_name: "Designo Multi-page Website",
       w_img: newslettter_img
    },
    {
-      w_no: 4,
+      w_no: 3,
       w_name: "E-commerce Product Page",
       w_img: e_commerce_img
    },
    {
-      w_no: 5,
+      w_no: 4,
       w_name: "Dino Studio App",
       w_img: dino_img
    },

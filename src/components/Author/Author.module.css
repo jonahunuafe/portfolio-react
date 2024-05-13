@@ -9,6 +9,8 @@
 
 .author img {
    margin-top: 5rem;
+   width: 50%;
+   border-radius: 100%;
 }
 
 .author h1 {
@@ -51,6 +53,10 @@
    border: 2px solid #fff;
 }
 
+.authorConnect a, .authorResume a {
+   text-decoration: none;
+}
+
 .authorResume:hover {
    border-color: #B415FF;
 }
@@ -68,6 +74,7 @@
    }
 
    .author img {
+      width: 300px;
       margin-top: 100px;
    }
 

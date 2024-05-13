@@ -1,11 +1,14 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+
+import jonah_img from "../images/jonah-photo.jpg";
+
 import classes from "./Author.module.css";
 
 const Author = () => {
   return (
     <div className={classes.author}>
-      <img src="" alt="author's profile picture" />
+      <img src={jonah_img} alt="author's profile picture" />
       <h1><span>I'm Jonah Unuafe,</span> frontend developer based in Nigeria.</h1>
       <p>I am a frontend developer from Delta State, South-South Nigeria with 5years experience in 
         web development.
