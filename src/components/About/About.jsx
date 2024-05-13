@@ -1,4 +1,6 @@
 import React from 'react';
+import jonah_img from "../images/jonah-photo.jpg"
+
 import classes from "./About.module.css";
 
 const About = () => {
@@ -9,7 +11,7 @@ const About = () => {
       </div>
       <div className={classes.aboutSection}>
          <div className={classes.aboutLeft}>
-            <img src="" alt="author's profile picture"/>
+            <img src={jonah_img} alt="author's profile picture"/>
          </div>
          <div className={classes.aboutRight}>
             <div className={classes.aboutPara}>

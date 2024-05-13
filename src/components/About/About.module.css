@@ -21,7 +21,14 @@
 }
 
 .aboutLeft {
-   margin: auto;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+.aboutLeft img {
+   width: 50%;
+   border-radius: 100%;
 }
 
 .aboutRight {
@@ -123,6 +130,12 @@
    .aboutLeft {
       margin: inherit;
    }
+   
+   .aboutLeft img {
+      width: 300px;
+   }
+
+
 
    .aboutRight {
       gap: 80px;

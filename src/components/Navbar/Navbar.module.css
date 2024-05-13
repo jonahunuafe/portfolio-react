@@ -30,6 +30,11 @@
    gap: 0.7rem;
    font-size: 1.2em;
    cursor: pointer;
+   transition: 0.3s;
+}
+
+.navList li:hover {
+   transform: scale(1.10);
 }
 
 .navList a {
