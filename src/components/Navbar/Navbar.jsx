@@ -16,7 +16,13 @@ const Navbar = () => {
 
    const closeMenu = () => {
       menuRef.current.style.right = "2100px"
+      
    };
+
+   const menuHandler = (menuName) => {
+      setMenu(menuName);
+      closeMenu();
+   }
 
   return (
    <div className={classes.navbar}>
@@ -24,26 +30,28 @@ const Navbar = () => {
       <RxHamburgerMenu className={classes.openMobileNav} onClick={openMenu} />
       <ul ref={menuRef} className={classes.navList}>
          <MdClose  className={classes.closeMobileNav} onClick={closeMenu} />
-         <li onClick={() => setMenu("home")}>
-            <NavLink to="/">Home</NavLink>
-            {menu === "home" && <FaMinus className={classes.minusSign} />}
-         </li>
-         <li onClick={() => setMenu("about")}>
-            <NavLink to="/about">About me</NavLink>
-            {menu === "about" && <FaMinus className={classes.minusSign} />}
+         <div className={classes.lists}>
+            <li onClick={() => menuHandler("home")}>
+               <NavLink to="/">Home</NavLink>
+               {menu === "home" && <FaMinus className={classes.minusSign} />}
             </li>
-         <li onClick={() => setMenu("services")}>
-            <NavLink to="/services">Services</NavLink>
-            {menu === "services" && <FaMinus className={classes.minusSign} />}
+            <li onClick={() => menuHandler("about")}>
+               <NavLink to="/about">About me</NavLink>
+               {menu === "about" && <FaMinus className={classes.minusSign} />}
+               </li>
+            <li onClick={() => menuHandler("services")}>
+               <NavLink to="/services">Services</NavLink>
+               {menu === "services" && <FaMinus className={classes.minusSign} />}
+               </li>
+            <li onClick={() => menuHandler("work")}>
+               <NavLink to="/work">Projects</NavLink>
+               {menu === "work" && <FaMinus className={classes.minusSign} />}
+               </li>
+            <li onClick={() => menuHandler("contact")}>
+               <NavLink to="/contact">Contact</NavLink>
+               {menu === "contact" && <FaMinus className={classes.minusSign} />}
             </li>
-         <li onClick={() => setMenu("work")}>
-            <NavLink to="/work">Projects</NavLink>
-            {menu === "work" && <FaMinus className={classes.minusSign} />}
-            </li>
-         <li onClick={() => setMenu("contact")}>
-            <NavLink to="/contact">Contact</NavLink>
-            {menu === "contact" && <FaMinus className={classes.minusSign} />}
-         </li>
+         </div>
       </ul>
    </div>
   );

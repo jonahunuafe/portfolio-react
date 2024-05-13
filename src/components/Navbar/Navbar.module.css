@@ -12,7 +12,7 @@
 .navList {
    position: fixed;
    flex-direction: column;
-   align-items: start;
+   /* align-items: start; */
    top: 0;
    background: #424769;
    text-align: center;
@@ -20,20 +20,16 @@
    transition: right 0.5s;
    width: 100%;
    right: 550px;
-   transition: 0.4s;
 }
 
 .navList li {
    display: flex;
    flex-direction: column;
    /* padding: 2rem 6.5rem; */
-   /* width: 70%; */
-   /* height: 20vh; */
-   gap: 0.7rem;
    font-size: 1.2em;
    cursor: pointer;
    transition: 0.3s;
-   margin-top: 3rem;
+   /* margin-top: 3rem; */
 }
 
 .navList li:hover {
@@ -68,38 +64,26 @@
 }
 
 @media(min-width: 768px) {
-   /* .openMobileNav, .closeMobileNav {
-      display: none;
-   } */
-
-   .navbar {
-      /* flex-direction: row; */
+   /* .navbar {
       margin: 20px 170px;
-   }
+   } */
 
    .navbar h1 {
       font-size: 40px;
    }
 
    .navList {
-      /* position: relative; */
-      /* flex-direction: row; */
-      /* background-color: inherit; */
       right: 2100px;
-      /* transition: none; */
    }
 
-   .navList {
-      /* display: flex; */
-      /* align-items: center; */
-      /* list-style: none; */
-      /* gap: 60px; */
-      /* font-size: 20px; */
+   .lists {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      height: 100vh;
    }
 
    .navList li {
-      padding: 0px;
-      gap: 5px;
       font-size: 20px;
    } 
 
@@ -117,7 +101,8 @@
    }
 
    .closeMobileNav {
-      top: 0;
+      top: 35px;
+      margin-right: 20px;
       font-size: 2rem;
    }
 }
