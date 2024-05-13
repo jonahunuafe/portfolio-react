@@ -1,8 +1,14 @@
 .navbar {
    display: flex;
-   align-items: center;
+   align-items: start;
    justify-content: space-between;
-   margin: 1rem 2rem;
+   background-color: #074173;
+   position: fixed;
+   top: 0;
+   width: 100%;
+   /* margin: 1rem 2rem; */
+   padding-top: 1rem;
+   padding-bottom: 1rem;
 }
 
 .navbar h1 {
@@ -12,7 +18,6 @@
 .navList {
    position: fixed;
    flex-direction: column;
-   /* align-items: start; */
    top: 0;
    background: #424769;
    text-align: center;
@@ -22,21 +27,27 @@
    right: 550px;
 }
 
-.navList li {
+.lists {
    display: flex;
    flex-direction: column;
-   /* padding: 2rem 6.5rem; */
+   justify-content: center;
+   gap: 3rem;
+   height: 100vh;
+}
+
+.lists li {
+   display: flex;
+   flex-direction: column;
    font-size: 1.2em;
    cursor: pointer;
    transition: 0.3s;
-   /* margin-top: 3rem; */
 }
 
-.navList li:hover {
+.lists li:hover {
    transform: scale(1.10);
 }
 
-.navList a {
+.lists a {
    text-decoration: none;
    color: #fff;
 }
@@ -46,10 +57,7 @@
    color: #B923E1;
 }
 
-.openMobileNav {
-   display: block;
-   position: fixed;
-   right: 2rem;
+.openMobileNav, .closeMobileNav {
    font-size: 1.5rem;
 }
 
@@ -57,19 +65,13 @@
    display: block;
    position: relative;
    top: 1.4rem;
-   /* left: 19.95rem; */
-   /* right: 20%; */
    float: right;
-   font-size: 1.5rem;
 }
 
 @media(min-width: 768px) {
-   /* .navbar {
-      margin: 20px 170px;
-   } */
-
    .navbar h1 {
-      font-size: 40px;
+      font-size: 35px;
+      margin-left: 70px;
    }
 
    .navList {
@@ -77,14 +79,11 @@
    }
 
    .lists {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      height: 100vh;
+      gap: 35px;
    }
 
-   .navList li {
-      font-size: 20px;
+   .lists li {
+      font-size: 30px;
    } 
 
    .navConnect {
@@ -100,9 +99,16 @@
       transform: scale(1.05);
    }
 
-   .closeMobileNav {
-      top: 35px;
-      margin-right: 20px;
+   .openMobileNav {
+      margin-right: 70px;
+   }
+
+   .openMobileNav, .closeMobileNav {
       font-size: 2rem;
+      cursor: pointer;
+   }
+
+   .closeMobileNav {
+      top: 25px;
    }
 }
