@@ -6,10 +6,16 @@
    gap: 2rem;
    width: 90%;
    margin: auto;
-   margin-top: 3rem;
+   margin-top: 4rem;
 }
 
-.contact h1, .contact h2 {
+.contact h1 {
+   font-size: 2em;
+   margin-top: 5rem;
+   text-decoration: underline;
+}
+
+.contact h2 {
    font-size: 1.5em;
    font-weight: 700;
 }

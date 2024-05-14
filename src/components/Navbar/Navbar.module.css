@@ -13,6 +13,7 @@
 
 .navbar h1 {
    font-size: 1.8rem;
+   margin-left: 1rem;
 }
 
 .navList {
@@ -59,6 +60,8 @@
 
 .openMobileNav, .closeMobileNav {
    font-size: 1.5rem;
+   margin-right: 1rem;
+   margin-top: 0.5rem;
 }
 
 .closeMobileNav {
@@ -67,6 +70,7 @@
    top: 1.4rem;
    float: right;
 }
+
 
 @media(min-width: 768px) {
    .navbar h1 {

@@ -11,14 +11,16 @@
 
 .servicesTitle h1 {
    font-weight: 600;
-   font-size: 1.5em;
+   font-size: 2em;
+   margin-top: 4rem;
+   margin-bottom: 2rem;
    text-decoration: underline;
 }
 
 .servicesContainer {
    display: grid;
    grid-template-columns: 1fr;
-   gap: 1.5rem;
+   gap: 2rem;
    margin-bottom: 4rem;
 }
 

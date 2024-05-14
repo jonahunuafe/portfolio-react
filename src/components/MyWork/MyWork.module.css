@@ -26,11 +26,14 @@
    gap: 2rem;
    width: 90%;
    margin: auto;
-   margin-top:5rem;
+   margin-top: 4rem;
 }
 
 .myWork h1 {
-   font-size: 1.5em;
+   font-size: 2em;
+   margin-top: 5rem;
+   margin-bottom: 2rem;
+   text-decoration: underline;
 }
 
 .showMore {
@@ -57,7 +60,7 @@
    }
 
    .myWorkContainer img {
-      width: 419px;
+      max-width: 419px;
       height: 270px;
    }
 

@@ -15,7 +15,7 @@
 }
 
 .AuthorImageContainer img {
-   margin-top: 5rem;
+   margin-top: 9rem;
    width: 50%;
    border-radius: 100%;
 }
@@ -31,6 +31,8 @@
    background-clip: text;
    -webkit-background-clip: text;
    -webkit-text-fill-color: transparent;
+   font-size: 1.52em;
+   font-weight: 600;
 }
 
 .author p {
@@ -85,7 +87,6 @@
 
    .author h1 span {
       font-size: 50px;
-      font-weight: 600;
    }
 
    .author p {
