@@ -4,15 +4,18 @@ import { IoLocationOutline } from "react-icons/io5";
 import { MdOutlineEmail } from "react-icons/md";
 import { IoCallOutline } from "react-icons/io5";
 
+
 const Contact = () => {
    const [result, setResult] = useState("");
 
    const onSubmit = async (event) => {
+      const web3FormsKey = import.meta.env.VITE_WEB_3_FORMS;
+
       event.preventDefault();
       setResult("Sending....");
       const formData = new FormData(event.target);
   
-      formData.append("access_key", "2155c00b-4466-4f0a-8578-2b154fb3ae49");
+      formData.append("access_key", web3FormsKey);
   
       const response = await fetch("https://api.web3forms.com/submit", {
         method: "POST",
@@ -27,6 +30,8 @@ const Contact = () => {
       } else {
         setResult(data.message);
       }
+
+      console.log(web3FormsKey);
    };
   
   return (
