@@ -68,6 +68,10 @@
       gap: 40px;
    }
 
+   .myWork h1 {
+      margin-bottom: 40px;
+   }
+
    .showMore {
       gap: 15px;
       border-radius: 50px;

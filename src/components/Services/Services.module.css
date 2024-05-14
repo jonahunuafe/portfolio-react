@@ -6,7 +6,7 @@
    gap: 1.5rem;
    width: 90%;
    margin: auto;
-   margin-top: 5rem;
+   margin-top: 4rem;
 }
 
 .servicesTitle h1 {
@@ -64,6 +64,7 @@
 
    .servicesTitle h1 {
       font-size: 30px;
+      margin-bottom: 5px;
    }
 
    .servicesContainer {

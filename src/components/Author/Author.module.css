@@ -20,13 +20,14 @@
    border-radius: 100%;
 }
 
-.author h1 {
+.authorAction h1 {
    text-align: center;
    font-size: 1.5em;
    font-weight: 600;
+   margin-top: 5rem;
 }
 
-.author h1 span {
+.authorAction h1 span {
    background: linear-gradient(270deg, #DF8908 10%, #B415FF 100%);
    background-clip: text;
    -webkit-background-clip: text;
@@ -35,7 +36,7 @@
    font-weight: 600;
 }
 
-.author p {
+.authorAction p {
    text-align: center;
    font-size: 1.2em;
    line-height: 1.8;
@@ -79,17 +80,17 @@
       width: 350px;
    }
 
-   .author h1 {
+   .authorAction h1 {
       text-align: left;
       font-size: 40px;
       width: 100%;
    }
 
-   .author h1 span {
+   .authorAction h1 span {
       font-size: 50px;
    }
 
-   .author p {
+   .authorAction p {
       text-align: left;
       font-size: 24px;
       line-height: 40px;
