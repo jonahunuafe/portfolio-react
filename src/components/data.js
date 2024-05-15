@@ -45,17 +45,17 @@ export const mywork_data = [
    {
       w_no: 1,
       w_name: "Newsletter page",
-      w_img: newslettter_img
+      w_img: newslettter_img,
    },
    {
       w_no: 2,
       w_name: "E-commerce Product Page",
-      w_img: e_commerce_img
+      w_img: e_commerce_img,
    },
    {
       w_no: 3,
       w_name: "Elegant Market",
-      w_img: elegant_img
+      w_img: elegant_img,
    },
    {
       w_no: 4,

@@ -9,7 +9,12 @@ const MyWork = () => {
          <h1>My latest work</h1>
          <div className={styles.myWorkContainer}>
             {mywork_data.map((recentWork, index) => (
-               <img key={index} src={recentWork.w_img} alt="project images" />
+               <div className={styles.imageContainer}>
+                  <img key={index} src={recentWork.w_img} alt="project images" />
+                  <div className={styles.layer}>
+                     <h3>{recentWork.w_name}</h3>  
+                  </div>
+               </div>
             ))}
          </div>
          <div className={styles.showMore}>
@@ -20,4 +25,4 @@ const MyWork = () => {
   );
 }
 
-export default MyWork;
+export default MyWork; 
