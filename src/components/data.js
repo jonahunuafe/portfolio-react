@@ -1,14 +1,12 @@
 import newslettter_img from "./images/newsletter_img.jpg"
 import e_commerce_img from "./images/e-commerce_img.webp"
-// import manage_img from "./images/manage_img.webp";
-// import payapi_img from "./images/payapi_IMG.jpg";
-import dino_img from "./images/dino_img.png";
 import elegant_img from "./images/elegant_img.png";
 import countdown_img from "./images/final countdown.png";
 import placepicker_img from "./images/placepicker.png";
 import projects_img from "./images/projects.png";
 import reactfundamentals_img from "./images/react-fundamentals.png";
-
+import tvshow_img from "./images/tvshow_img.png";
+import dino_img from "./images/dino_img.png";
 
 
 const services = [
@@ -44,11 +42,6 @@ const services = [
 
 
 export const mywork_data = [
-   // {
-   //    w_no: 1,
-   //    w_name: "Author's Photo",
-   //    w_img: ""
-   // },
    {
       w_no: 1,
       w_name: "Newsletter page",
@@ -84,8 +77,15 @@ export const mywork_data = [
       w_name: "Place Picker App",
       w_img: placepicker_img
    },
+
    {
       w_no: 8,
+      w_name: "A TV Show App",
+      w_img: tvshow_img
+   },
+
+   {
+      w_no: 9,
       w_name: "Dino Studio App",
       w_img: dino_img
    },
