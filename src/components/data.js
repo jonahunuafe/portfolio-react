@@ -44,49 +44,58 @@ const services = [
 export const mywork_data = [
    {
       w_no: 1,
-      w_name: "Newsletter page",
+      live_url: "",
+      w_techstack: "HTML, CSS, JAVASCRIPT",
       w_img: newslettter_img,
    },
    {
       w_no: 2,
-      w_name: "E-commerce Product Page",
+      live_url: "",
+      w_techstack: "HTML, CSS, JAVASCRIPT",
       w_img: e_commerce_img,
    },
    {
       w_no: 3,
-      w_name: "Elegant Market",
+      live_url: "",
+      w_techstack: "HTML, CSS, JAVASCRIPT, REACT",
       w_img: elegant_img,
    },
    {
       w_no: 4,
-      w_name: "Final Count Down App",
+      live_url: "",
+      w_techstack: "HTML, CSS, JAVASCRIPT, REACT",
       w_img: countdown_img
    },
    {
       w_no: 5,
-      w_name: "Fundamentals of React",
+      live_url: "",
+      w_techstack: "HTML, CSS, JAVASCRIPT, REACT",
       w_img: reactfundamentals_img
    },
    {
       w_no: 6,
-      w_name: "Plan Your Projects and Tasks",
+      live_url: "",
+      w_techstack: "HTML, CSS, JAVASCRIPT, REACT",
       w_img: projects_img
    },
    {
       w_no: 7,
-      w_name: "Place Picker App",
+      live_url: "",
+      w_techstack: "HTML, CSS, JAVASCRIPT, REACT",
       w_img: placepicker_img
    },
 
    {
       w_no: 8,
-      w_name: "A TV Show App",
+      live_url: "https://tv-show-app-ten.vercel.app/",
+      w_techstack: "HTML, CSS, JAVASCRIPT, REACT",
       w_img: tvshow_img
    },
 
    {
       w_no: 9,
-      w_name: "Dino Studio App",
+      live_url: "https://dino-studio.netlify.app/",
+      w_techstack: "HTML, CSS, BOOTSTRAP, JAVASCRIPT, REACT",
       w_img: dino_img
    },
 ]

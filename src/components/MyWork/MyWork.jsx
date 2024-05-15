@@ -14,11 +14,11 @@ const MyWork = () => {
          <div className={styles.myWorkContainer}>
             {mywork_data.map((recentWork, index) => (
                <div>
-                  <h2>Hover to visit live url</h2>
+                  <h4>Visit: <Link to={recentWork.live_url}>{recentWork.live_url}</Link></h4>
                   <div className={styles.imageContainer}>
                      <img key={index} src={recentWork.w_img} alt="project images" />
                      <div className={styles.layer}>
-                        <h3>{recentWork.w_name}</h3>
+                        <h3>{recentWork.w_techstack}</h3>
                      </div>
                   </div>
                </div>
