@@ -80,7 +80,7 @@ export const mywork_data = [
    },
    {
       w_no: 7,
-      live_url: "",
+      live_url: "https://place-picker-app.vercel.app",
       w_techstack: "HTML, CSS, JAVASCRIPT, REACT",
       w_img: placepicker_img
    },
