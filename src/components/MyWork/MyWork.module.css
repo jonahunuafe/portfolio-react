@@ -23,6 +23,7 @@
    width: 90%;
    margin: auto;
    margin-top: 4rem;
+   margin-bottom: 3rem;
 }
 
 .myWork a {
@@ -31,13 +32,24 @@
    color: #fff;
 }
 
+.linkContainer a:hover {
+   background-color: #fff;
+   color: #378CE7;
+   padding: 0.3rem 0.3rem;
+}
+
 .myWork p {
    font-size: 1.5em;
    text-align: center;
 }
 
 .myWork p a {
-   color:  rgb(106, 90, 205, 0.8);
+   color:  #378CE7;
+}
+
+.fa {
+   margin-right: 0.3rem;
+   color:  #378CE7;
 }
 
 .linkContainer {

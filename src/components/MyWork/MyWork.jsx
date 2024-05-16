@@ -6,7 +6,11 @@ import { FaLink } from "react-icons/fa";
 
 
 const MyWork = () => {
-  return (
+   function changeText() {
+      setLoadingText("Loading");
+   }
+
+   return (
       <div className={styles.myWork}>
          <h1>Frontend Developer Portfolio</h1>
          <p>
@@ -16,10 +20,10 @@ const MyWork = () => {
          <div className={styles.myWorkContainer}>
             {mywork_data.map((recentWork, index) => (
                <div>
-                  <div className={styles.linkContainer}>
-                     <FaLink />
+                  <div className={styles.linkContainer} onClick={() => changeText()}>
+                     <FaLink className={styles.fa} />
                      <h4> 
-                        <Link to={recentWork.live_url}>{recentWork.live_url}</Link>
+                        <Link to={recentWork.live_url} target="_blank">Live site</Link>
                      </h4>
                   </div>
                   <div className={styles.imageContainer}>
@@ -32,7 +36,7 @@ const MyWork = () => {
             ))}
          </div>
       </div>
-  );
+   );
 }
 
 export default MyWork; 

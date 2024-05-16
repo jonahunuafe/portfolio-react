@@ -44,13 +44,13 @@ const services = [
 export const mywork_data = [
    {
       w_no: 1,
-      live_url: "",
+      live_url: "https://jonahunuafe.github.io/newsletter-sign-up-with-success-message/",
       w_techstack: "HTML, CSS, JAVASCRIPT",
       w_img: newslettter_img,
    },
    {
       w_no: 2,
-      live_url: "",
+      live_url: "https://jonahunuafe.github.io/e-commerce-product-page/",
       w_techstack: "HTML, CSS, JAVASCRIPT",
       w_img: e_commerce_img,
    },
