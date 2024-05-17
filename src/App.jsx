@@ -4,12 +4,18 @@ import Services from "./components/Services/Services";
 import MyWork from "./components/MyWork/MyWork";
 import Contact from "./components/Contact/Contact";
 import Footer from "./components/Footer/Footer"
-import RootLayout from './Layout/RootLayout';
+import Navbar from "./components/Navbar/Navbar";
 
 const App = () => {
   return (
-    <div>
+    <div className="overallContainer">
+      <Navbar />
       <Author />
+      <About />
+      <Services />
+      <MyWork />
+      <Contact />
+      <Footer />
     </div>
   )
 }
