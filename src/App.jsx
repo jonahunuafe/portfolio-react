@@ -8,15 +8,17 @@ import Navbar from "./components/Navbar/Navbar";
 
 const App = () => {
   return (
-    <div className="overallContainer">
-      <Navbar />
-      <Home />
-      <About />
-      <Services />
-      <MyWork />
-      <Contact />
+    <>
+      <div className="overallContainer">
+        <Navbar />
+        <Home />
+        <About />
+        <Services />
+        <MyWork />
+        <Contact />
+      </div>
       <Footer />
-    </div>
+    </>
   )
 }
 

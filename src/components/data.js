@@ -1,12 +1,12 @@
-import newslettter_img from "./images/newsletter_img.jpg"
-import e_commerce_img from "./images/e-commerce_img.webp"
-import elegant_img from "./images/elegant_img.png";
-import countdown_img from "./images/final countdown.png";
-import placepicker_img from "./images/placepicker.png";
-import projects_img from "./images/projects.png";
-import reactfundamentals_img from "./images/react-fundamentals.png";
-import tvshow_img from "./images/tvshow_img.png";
-import dino_img from "./images/dino_img.png";
+import newslettter_img from "../assets/images/newsletter_img.jpg"
+import e_commerce_img from "../assets/images/e-commerce_img.webp"
+import elegant_img from "../assets/images/elegant_img.png";
+import final_countdown_img from "../assets/images/final countdown.png"
+import placepicker_img from "../assets/images/placepicker.png";
+import projects_img from "../assets/images/projects.png";
+import reactfundamentals_img from "../assets/images/react-fundamentals.png";
+import tvshow_img from "../assets/images/tvshow_img.png";
+import dino_img from "../assets/images/dino_img.png";
 
 
 const services = [
@@ -64,7 +64,7 @@ export const mywork_data = [
       w_no: 4,
       live_url: "",
       w_techstack: "HTML, CSS, JAVASCRIPT, REACT",
-      w_img: countdown_img
+      w_img: final_countdown_img
    },
    {
       w_no: 5,

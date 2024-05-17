@@ -1,5 +1,5 @@
 import React from 'react';
-import jonah_img from "../images/jonah-photo.jpg"
+import jonah_img from "../../assets/images/jonah-photo.jpg"
 
 import classes from "./About.module.css";
 
