@@ -5,6 +5,9 @@ import { IoLogoCss3 } from "react-icons/io";
 import { IoLogoJavascript } from "react-icons/io5";
 import { IoLogoReact } from "react-icons/io5";
 import { TbBrandNextjs } from "react-icons/tb";
+import { FaGitAlt } from "react-icons/fa";
+import { FaGithub } from "react-icons/fa";
+import { BiLogoVisualStudio } from "react-icons/bi";
 
 import classes from "./About.module.css";
 
@@ -33,35 +36,42 @@ const About = () => {
             </div>
             <div className={classes.aboutSkills}>
                <div className={classes.aboutSkill}>
-                  <p>HTML <IoLogoHtml5 className={classes.icon}/></p>
+                  <p>HTML</p>
+                  <IoLogoHtml5 className={classes.icon}/>
                </div>
                <div className={classes.aboutSkill}>
-                  <p>CSS <IoLogoCss3 className={classes.icon}/></p>
+                  <p>CSS</p>
+                  <IoLogoCss3 className={classes.icon}/>
                </div>
                <div className={classes.aboutSkill}>
-                  <p>JavaScript <IoLogoJavascript className={classes.icon}/></p>
+                  <p>JavaScript</p>
+                  <IoLogoJavascript className={classes.icon}/>
                </div>
                <div className={classes.aboutSkill}>
-                  <p>React JS <IoLogoReact className={classes.icon}/></p>
+                  <p>React JS</p>
+                  <IoLogoReact className={classes.icon}/>
                </div>
                <div className={classes.aboutSkill}>
-                  <p>Next JS <TbBrandNextjs className={classes.icon}/></p> 
+                  <p>Next JS</p> 
+                  <TbBrandNextjs className={classes.icon} />
+               </div>
+               <div className={classes.aboutSkill}>
+                  <p>GIT</p>
+                  <FaGitAlt className={classes.icon} /> 
+               </div>
+               <div className={classes.aboutSkill}>
+                  <p>GITHUB</p> 
+                  <FaGithub className={classes.icon} />
+               </div>
+               <div className={classes.aboutSkill}>
+                  <p>VS CODE</p> 
+                  <BiLogoVisualStudio className={classes.icon} />
                </div>
             </div>
          </div>
       </div>
-      <div className={classes.aboutAchievements}>
-         <div className={classes.aboutAchievement}>
-            <h1>10+</h1>
-            <p>YEARS OF EXPERIENCE</p>
-         </div>
-         <div className={classes.aboutAchievement}>
-            <h1>90+</h1>
-            <p>PROJECTS COMPLETED</p>
-         </div>
-      </div>
    </div>
-  )
+  );
 }
 
 export default About

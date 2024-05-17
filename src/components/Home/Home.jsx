@@ -15,17 +15,6 @@ const Home = () => {
           <div className={classes.authorConnect}><a href="#contact">Connect with me</a></div>
         </div>
       </section>
-      <section className={classes.summary} style={{textAlign: "center"}}>
-        <div>
-          <p>Technical proficiency</p>
-          <p>
-            Tools
-            <span>Git and Github</span>
-            <span>Visual Studio Code</span>
-            <span>Responsive Design</span>
-          </p>
-        </div>
-      </section>
     </> 
   );
 }
