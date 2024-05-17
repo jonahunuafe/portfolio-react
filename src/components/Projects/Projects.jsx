@@ -1,10 +1,10 @@
 import React from 'react';
-import styles from "./MyWork.module.css";
+import styles from "./Projects.module.css";
 import { mywork_data } from '../data';
 import { FaLink } from "react-icons/fa";
 
 
-const MyWork = () => {
+const Projects = () => {
    function changeText() {
       setLoadingText("Loading");
    }
@@ -38,6 +38,4 @@ const MyWork = () => {
    );
 }
 
-export default MyWork; 
-
-// style={{color: "white"}}
+export default Projects;
