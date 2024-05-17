@@ -18,7 +18,7 @@ const MyWork = () => {
          </p>
          <div className={styles.myWorkContainer}>
             {mywork_data.map((recentWork, index) => (
-               <div>
+               <div key={index}>
                   <div className={styles.linkContainer} onClick={() => changeText()}>
                      <FaLink className={styles.fa} />
                      <h4> 
@@ -26,7 +26,7 @@ const MyWork = () => {
                      </h4>
                   </div>
                   <div className={styles.imageContainer}>
-                     <img key={index} src={recentWork.w_img} alt="project images" />
+                     <img src={recentWork.w_img} alt="project images" />
                      <div className={styles.layer}>
                         <h3>{recentWork.w_techstack}</h3>
                      </div>
