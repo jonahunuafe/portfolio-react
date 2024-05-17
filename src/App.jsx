@@ -9,8 +9,8 @@ import Navbar from "./components/Navbar/Navbar";
 const App = () => {
   return (
     <>
+      <Navbar />
       <div className="overallContainer">
-        <Navbar />
         <Home />
         <About />
         <Services />

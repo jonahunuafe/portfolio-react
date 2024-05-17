@@ -32,31 +32,31 @@ const Navbar = () => {
          <MdClose  className={classes.closeMobileNav} onClick={closeMenu} />
          <div className={classes.lists}>
             <li onClick={() => menuHandler("home")}>
-               <AnchorLink href="#home">
+               <AnchorLink className={classes.AnchorLink} href="#home">
                   Home
                   {menu === "home" && <FaMinus className={classes.minusSign} />}
                </AnchorLink>
             </li>
             <li onClick={() => menuHandler("about")}>
-               <AnchorLink offset={50} href="#about">
+               <AnchorLink className={classes.AnchorLink} offset={50} href="#about">
                   About me
                   {menu === "about" && <FaMinus className={classes.minusSign} />}
                </AnchorLink>
                </li>
             <li onClick={() => menuHandler("services")}>
-               <AnchorLink offset={50} href="#services">
+               <AnchorLink className={classes.AnchorLink} offset={50} href="#services">
                   Services
                   {menu === "services" && <FaMinus className={classes.minusSign} />}
                </AnchorLink>
                </li>
             <li onClick={() => menuHandler("work")}>
-               <AnchorLink offset={50} href="#projects">
+               <AnchorLink className={classes.AnchorLink} offset={50} href="#projects">
                   Projects
                   {menu === "work" && <FaMinus className={classes.minusSign} />}
                </AnchorLink>
                </li>
             <li onClick={() => menuHandler("contact")}>
-               <AnchorLink offset={50} href="#contact">
+               <AnchorLink className={classes.AnchorLink} offset={50} href="#contact">
                   Contact
                   {menu === "contact" && <FaMinus className={classes.minusSign} />}
                </AnchorLink>
