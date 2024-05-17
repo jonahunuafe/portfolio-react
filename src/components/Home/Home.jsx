@@ -12,7 +12,7 @@ const Home = () => {
           <p>
             I am a passionate frontend developer with 3years experience in web development.
           </p>
-          <div className={classes.authorConnect}>Connect with me</div>
+          <div className={classes.authorConnect}><a href="#contact">Connect with me</a></div>
         </div>
       </section>
       <section className={classes.summary} style={{textAlign: "center"}}>

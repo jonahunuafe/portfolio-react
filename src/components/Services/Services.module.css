@@ -4,22 +4,27 @@
    align-items: center;
    justify-content: center;
    gap: 1.5rem;
-   margin-top: 4rem;
+}
+
+.servicesTitle {
+   text-align: center;
 }
 
 .servicesTitle h1 {
    font-weight: 600;
    font-size: 2em;
    margin-top: 4rem;
-   margin-bottom: 2rem;
    text-decoration: underline;
+}
+
+.servicesTitle p {
+   font-size: 1.2em;
 }
 
 .servicesContainer {
    display: grid;
    grid-template-columns: 1fr;
    gap: 2rem;
-   margin-bottom: 4rem;
 }
 
 .servicesFormat {
@@ -60,13 +65,19 @@
       margin-top: 90px;
    }
 
+   .servicesTitle  p {
+      font-size: 25px;
+      width: 90%;
+      margin: auto;
+   }
+
    .servicesTitle h1 {
       font-size: 30px;
       margin-bottom: 5px;
    }
 
    .servicesContainer {
-      grid-template-columns: 1fr 1fr  1fr;
+      grid-template-columns: repeat(3, 1fr);
       margin-bottom: 80px;
    }
 

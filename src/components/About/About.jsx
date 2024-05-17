@@ -1,5 +1,10 @@
 import React from 'react';
 import jonah_img from "../../assets/images/jonah-photo.jpg"
+import { IoLogoHtml5 } from "react-icons/io5";
+import { IoLogoCss3 } from "react-icons/io";
+import { IoLogoJavascript } from "react-icons/io5";
+import { IoLogoReact } from "react-icons/io5";
+import { TbBrandNextjs } from "react-icons/tb";
 
 import classes from "./About.module.css";
 
@@ -28,16 +33,19 @@ const About = () => {
             </div>
             <div className={classes.aboutSkills}>
                <div className={classes.aboutSkill}>
-                  <p>HTML & CSS</p><hr style={{width: "20%"}}/><span>90%</span>
+                  <p>HTML <IoLogoHtml5 className={classes.icon}/></p>
                </div>
                <div className={classes.aboutSkill}>
-                  <p>JavaScript</p><hr style={{width: "20%"}}/><span>80%</span>
+                  <p>CSS <IoLogoCss3 className={classes.icon}/></p>
                </div>
                <div className={classes.aboutSkill}>
-                  <p>React JS</p><hr style={{width: "20%"}}/><span>70%</span>
+                  <p>JavaScript <IoLogoJavascript className={classes.icon}/></p>
                </div>
                <div className={classes.aboutSkill}>
-                  <p>Next JS</p><hr style={{width: "20%"}}/><span>50%</span>  
+                  <p>React JS <IoLogoReact className={classes.icon}/></p>
+               </div>
+               <div className={classes.aboutSkill}>
+                  <p>Next JS <TbBrandNextjs className={classes.icon}/></p> 
                </div>
             </div>
          </div>

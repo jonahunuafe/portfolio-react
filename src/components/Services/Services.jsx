@@ -8,8 +8,8 @@ const Services = () => {
       <div className={styles.servicesTitle}>
          <h1>My Services</h1>
          <p>
-            I transform your ideas and consequently your desires into, into a distinctive web 
-            project that bot inspires you and captivates your customers.
+            I transform your ideas, and consequently your desires, into a distinctive web 
+            project that both inspires you and captivates your customers.
          </p>
       </div>
       <div className={styles.servicesContainer}>
