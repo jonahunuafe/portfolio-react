@@ -10,7 +10,7 @@ const MyWork = () => {
    }
 
    return (
-      <div className={styles.myWork} id="portfolio">
+      <div className={styles.myWork} id="projects">
          <h1>Frontend Developer Portfolio</h1>
          <p>
             A collection of my featured projects. You can find more of my work on 

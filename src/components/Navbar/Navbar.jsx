@@ -4,6 +4,7 @@ import { FaMinus } from "react-icons/fa";
 import { RxHamburgerMenu } from "react-icons/rx";
 import { MdClose } from "react-icons/md";
 import classes from "./Navbar.module.css";
+import AnchorLink from 'react-anchor-link-smooth-scroll';
 
 const Navbar = () => {
    const [menu, setMenu] = useState("");
@@ -31,24 +32,34 @@ const Navbar = () => {
          <MdClose  className={classes.closeMobileNav} onClick={closeMenu} />
          <div className={classes.lists}>
             <li onClick={() => menuHandler("home")}>
-               Home
-               {menu === "home" && <FaMinus className={classes.minusSign} />}
+               <AnchorLink href="#home">
+                  Home
+                  {menu === "home" && <FaMinus className={classes.minusSign} />}
+               </AnchorLink>
             </li>
             <li onClick={() => menuHandler("about")}>
-               About me
-               {menu === "about" && <FaMinus className={classes.minusSign} />}
+               <AnchorLink offset={50} href="#about">
+                  About me
+                  {menu === "about" && <FaMinus className={classes.minusSign} />}
+               </AnchorLink>
                </li>
             <li onClick={() => menuHandler("services")}>
-               Services
-               {menu === "services" && <FaMinus className={classes.minusSign} />}
+               <AnchorLink offset={50} href="#services">
+                  Services
+                  {menu === "services" && <FaMinus className={classes.minusSign} />}
+               </AnchorLink>
                </li>
             <li onClick={() => menuHandler("work")}>
-               Projects
-               {menu === "work" && <FaMinus className={classes.minusSign} />}
+               <AnchorLink offset={50} href="#projects">
+                  Projects
+                  {menu === "work" && <FaMinus className={classes.minusSign} />}
+               </AnchorLink>
                </li>
             <li onClick={() => menuHandler("contact")}>
-               Contact
-               {menu === "contact" && <FaMinus className={classes.minusSign} />}
+               <AnchorLink offset={50} href="#contact">
+                  Contact
+                  {menu === "contact" && <FaMinus className={classes.minusSign} />}
+               </AnchorLink>
             </li>
          </div>
       </ul>
