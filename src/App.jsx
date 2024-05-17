@@ -1,4 +1,4 @@
-import Author from "./components/Author/Author"
+import Home from "./components/Home/Home"
 import About from "./components/About/About";
 import Services from "./components/Services/Services";
 import MyWork from "./components/MyWork/MyWork";
@@ -10,7 +10,7 @@ const App = () => {
   return (
     <div className="overallContainer">
       <Navbar />
-      <Author />
+      <Home />
       <About />
       <Services />
       <MyWork />

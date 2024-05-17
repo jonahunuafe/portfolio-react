@@ -1,14 +1,11 @@
 import React from 'react';  
-import { Link } from 'react-router-dom';
-
 import jonah_img from "../images/jonah-photo.jpg";
+import classes from "./Home.module.css";
 
-import classes from "./Author.module.css";
-
-const Author = () => {
+const Home = () => {
   return (
     <>
-      <section className={classes.author} id="author">
+      <section className={classes.author} id="home">
         <div className={classes.AuthorImageContainer}><img src={jonah_img} alt="author's profile picture" /></div>
         <div className={classes.authorAction}>
           <h1><span>Jonah Unuafe <br/></span> Frontend Developer.</h1>
@@ -33,4 +30,4 @@ const Author = () => {
   );
 }
 
-export default Author;
+export default Home;
