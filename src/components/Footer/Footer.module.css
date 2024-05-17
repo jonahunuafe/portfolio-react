@@ -1,9 +1,9 @@
 .footer {
    display: flex;
-   flex-direction: column;
    justify-content: space-between;
-   margin-bottom: 3rem;
-   background: #074173;
+   border-top: 2px solid #074173;
+   border-bottom: none;
+   padding: 2rem;
 }
 
 .footerLeft {
@@ -12,12 +12,16 @@
 
 .footerRight {
    display: flex;
-   gap: 2rem;
+   gap: 1rem;
 }
 
 .footerRight a {
    text-decoration: none;
    color: #fff;
+}
+
+.footerRight a:hover {
+   color: #378CE7;
 }
 
 @media(min-width: 768px) {
