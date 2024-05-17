@@ -13,13 +13,21 @@ const Author = () => {
         <div className={classes.authorAction}>
           <h1><span>Jonah Unuafe <br/></span> Frontend Developer.</h1>
           <p>
-            I am a frontend developer with 3years experience in web development.
+            I am a passionate frontend developer with 3years experience in web development.
           </p>
           <div className={classes.authorConnect}><Link to="/contact">Connect with me</Link></div>
         </div>
       </section>
       <section className={classes.summary} style={{textAlign: "center"}}>
-        <p>I am trying to add another section to this, to make it longer and nicer</p>
+        <div>
+          <p>Technical proficiency</p>
+          <p>
+            Tools
+            <span>Git and Github</span>
+            <span>Visual Studio Code</span>
+            <span>Responsive Design</span>
+          </p>
+        </div>
       </section>
     </> 
   );
