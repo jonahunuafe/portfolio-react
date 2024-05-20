@@ -20,6 +20,7 @@
    align-items: center;
    justify-content: center;
    gap: 2rem;
+   background: #545B77;
 }
 
 .myWork a {

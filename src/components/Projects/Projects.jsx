@@ -11,28 +11,30 @@ const Projects = () => {
 
    return (
       <div className={styles.myWork} id="projects">
-         <h1>Frontend Developer Portfolio</h1>
-         <p>
-            A collection of my featured projects. You can find more of my work on 
-            <a href="https://github.com/jonahunuafe" target="_blank"> Github</a>.
-         </p>
-         <div className={styles.myWorkContainer}>
-            {mywork_data.map((recentWork, index) => (
-               <div key={index}>
-                  <div className={styles.linkContainer} onClick={() => changeText()}>
-                     <FaLink className={styles.fa} />
-                     <h4> 
-                        <a href={recentWork.live_url} target="_blank">Live site</a>
-                     </h4>
-                  </div>
-                  <div className={styles.imageContainer}>
-                     <img src={recentWork.w_img} alt="project images" />
-                     <div className={styles.layer}>
-                        <h3>{recentWork.w_techstack}</h3>
+         <div className="overallContainer">
+            <h1>Frontend Developer Portfolio</h1>
+            <p>
+               A collection of my featured projects. You can find more of my work on 
+               <a href="https://github.com/jonahunuafe" target="_blank"> Github</a>.
+            </p>
+            <div className={styles.myWorkContainer}>
+               {mywork_data.map((recentWork, index) => (
+                  <div key={index}>
+                     <div className={styles.linkContainer} onClick={() => changeText()}>
+                        <FaLink className={styles.fa} />
+                        <h4> 
+                           <a href={recentWork.live_url} target="_blank">Live site</a>
+                        </h4>
+                     </div>
+                     <div className={styles.imageContainer}>
+                        <img src={recentWork.w_img} alt="project images" />
+                        <div className={styles.layer}>
+                           <h3>{recentWork.w_techstack}</h3>
+                        </div>
                      </div>
                   </div>
-               </div>
-            ))}
+               ))}
+            </div>
          </div>
       </div>
    );

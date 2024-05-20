@@ -15,8 +15,10 @@ const App = () => {
         <Home />
         <About />
         <Services />
-        <Projects />
-        <Contact />
+      </div>
+      <Projects />
+      <div className="overallContainer">
+        <Contact  />
       </div>
       <Footer />
     </>
