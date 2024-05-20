@@ -9,7 +9,6 @@
 .contact h1 {
    font-size: 2em;
    margin-top: 4rem;
-   /* margin-top: 5rem; */
    text-decoration: underline;
 }
 
@@ -66,7 +65,6 @@
    color: #A0A0A0;
    outline: none;
    font-family: Outfit;
-   /* width: 100%; */
    height: 45px;
    padding-left: 1.5rem;
 }
@@ -101,7 +99,6 @@
 @media(min-width: 768px) {
    .contact {
       gap: 80px;
-      margin-top: 100px;
    }
 
    .contactSection {
@@ -111,6 +108,10 @@
 
    .contactleft {
       gap: 30px;
+   }
+
+   .contact h1 {
+      margin-top: 100px;
    }
 
    .contactleft h2, .contact h1 {

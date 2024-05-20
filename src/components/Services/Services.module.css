@@ -12,7 +12,7 @@
 
 .servicesTitle h1 {
    font-weight: 600;
-   font-size: 2em;
+   font-size: 2rem;
    margin-top: 4rem;
    text-decoration: underline;
 }
@@ -62,7 +62,7 @@
 @media(min-width: 768px) {
    .services {
       gap: 80px;
-      margin-top: 90px;
+      /* outline: 1px solid red; */
    }
 
    .servicesTitle  p {
@@ -73,12 +73,12 @@
 
    .servicesTitle h1 {
       font-size: 30px;
+      margin-top: 100px;
       margin-bottom: 5px;
    }
 
    .servicesContainer {
       grid-template-columns: repeat(3, 1fr);
-      margin-bottom: 80px;
    }
 
    .servicesFormat {   

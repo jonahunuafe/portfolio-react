@@ -1,10 +1,15 @@
 /* background: linear-gradient(264deg, #DF8908 -5.09%, #B415FF 102.28%); */
 
-
 .aboutSection {
    display: flex;
    flex-direction: column;
    gap: 3rem;
+}
+
+.aboutTitle h1 {
+   font-size: 2rem;
+   padding-top: 4rem;
+   text-align: center;
 }
 
 .aboutSection p, .icon {
@@ -21,6 +26,7 @@
    display: flex;
    align-items: center;
    gap: 0.5rem;
+   margin: auto;
 }
 
 .aboutPara {
@@ -28,6 +34,7 @@
    flex-direction: column;
    gap: 2rem;
    align-items: center;
+   text-align: center;
 }
 
 .aboutLeft {
@@ -51,8 +58,16 @@
       grid-template-columns: repeat(4, 1fr);
    }
 
+   .aboutTitle h1 {
+      padding-top: 100px;
+   }
+
    .aboutSection p, .icon {
       font-size: 25px;
+   }
+   
+   .aboutPara {
+      text-align: left;
    }
 
    .aboutLeft img {
