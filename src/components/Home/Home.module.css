@@ -67,12 +67,13 @@
 
 @media(min-width: 768px) {
    .author {
-      gap: 25px;
+      gap: 45px;
+      padding-top: 100px;
       flex-direction: row-reverse;
    }
 
    .AuthorImageContainer img {
-      margin-top: 130px;
+      margin-top: 100px;
       width: 350px;
    }
 
@@ -87,6 +88,7 @@
    }
 
    .authorAction p {
+      width: 600px;
       text-align: left;
       font-size: 24px;
       line-height: 40px;
@@ -95,11 +97,11 @@
    .authorAction {
       gap: 25px;
       font-size: 20px;
-      margin-top: 190px;
+      margin-top: 100px;
       align-items: start;
    }
 
-   .authorConnect, .authorResume {
+   .authorConnect {
       font-weight: 200;
       padding: 10px 15px;
    }

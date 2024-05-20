@@ -18,6 +18,7 @@
 }
 
 .servicesTitle p {
+   margin-top: 2rem;
    font-size: 1.2em;
 }
 
@@ -62,12 +63,11 @@
 @media(min-width: 768px) {
    .services {
       gap: 80px;
-      /* outline: 1px solid red; */
    }
 
    .servicesTitle  p {
       font-size: 25px;
-      width: 90%;
+      width: 70%;
       margin: auto;
    }
 

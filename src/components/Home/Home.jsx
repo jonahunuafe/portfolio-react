@@ -11,7 +11,9 @@ const Home = () => {
       <div className={classes.authorAction}>
         <h1><span>Jonah Unuafe <br/></span> Frontend Developer.</h1>
         <p>
-          I am a passionate frontend developer with 3years experience in web development.
+          I am a passionate frontend developer with 3years experience in web development 
+          equipped with the web charisma of providing excellent user experiences, laced
+          with knife cutting edge user interfaces.
         </p>
         <div className={classes.authorConnect}><a href="#contact">Connect with me</a></div>
       </div>

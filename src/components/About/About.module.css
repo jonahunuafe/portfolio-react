@@ -9,6 +9,8 @@
 .aboutTitle h1 {
    font-size: 2rem;
    padding-top: 4rem;
+   margin-bottom: 2.3rem;
+   text-decoration: underline;
    text-align: center;
 }
 
