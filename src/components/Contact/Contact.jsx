@@ -40,30 +40,19 @@ const Contact = () => {
          <div className={styles.contactSection}>
             <div className={styles.contactleft}>
                <h2>Let's talk</h2>
-               <p>I'm currently available to take new projects so feel free to contact me.</p>
-               <div className={styles.contactDetails}>
-                  <div className={styles.contactDetail}>
-                     <MdOutlineEmail />
-                     <p>fejisfejiro@gmail.com</p>
-                  </div>
-                  <div className={styles.contactDetail}>
-                     <IoCallOutline />
-                     <p>+2348136250050</p>
-                  </div>
-                  <div className={styles.contactDetail}>
-                     <IoLocationOutline />
-                     <p>Delta State, Nigeria.</p>
-                  </div>
-
-               </div>
+               <p>
+                  Thanks for taking out time to go through. Got any question or an idea? 
+                  Send me an email via the form.<br/>
+                  I'm currently available to take new projects so feel free to contact me.
+               </p>
             </div>
             <form onSubmit={onSubmit} className={styles.contactRight}>
-               <label htmlFor="">Your Name</label>
-               <input type="text" placeholder="Enter your name" name="name" required />
-               <label htmlFor="">Your Email</label>
-               <input type="email" placeholder="Enter your email" name="email" required />
-               <label htmlFor="">Write your message here</label>
-               <textarea name="message" id="" rows="8" placeholder="Enter your message" />
+               <label htmlFor="name">Your Name</label>
+               <input type="text" id="name" placeholder="Enter your name" name="name" required />
+               <label htmlFor="email">Your Email</label>
+               <input type="email" id="email" placeholder="Enter your email" name="email" required />
+               <label htmlFor="textarea">Write your message here</label>
+               <textarea name="message" id="textarea" rows="8" placeholder="Enter your message" />
                <span>{result}</span>
                <button type="submit" className={styles.contactSubmit}>Submit</button>
             </form>

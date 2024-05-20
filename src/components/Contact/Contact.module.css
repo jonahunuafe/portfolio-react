@@ -21,6 +21,7 @@
 .contactleft {
    display: flex;
    flex-direction: column;
+   align-items: center;
    gap: 1.5rem;
 }
 
@@ -34,22 +35,8 @@
 }
 
 .contactleft p {
-   max-width: 80%;
    color: #D8D8D8;
    line-height: 1.5;
-}
-
-.contactDetails {
-   display: flex;
-   flex-direction: column;
-   gap: 1rem;
-   color: #D8D8D8;
-}
-
-.contactDetail {
-   display: flex;
-   align-items: center;
-   gap: 1rem;
 }
 
 .contactRight {
@@ -64,7 +51,6 @@
    background: #32323c;
    color: #A0A0A0;
    outline: none;
-   font-family: Outfit;
    height: 45px;
    padding-left: 1.5rem;
 }
@@ -77,7 +63,6 @@
    outline: none;
    padding-top: 1rem;
    padding-left: 1.5rem;
-   font-family: Outfit;
 }
 
 .contactSubmit {
@@ -107,6 +92,7 @@
    }
 
    .contactleft {
+      align-items: start;
       gap: 30px;
    }
 
@@ -123,14 +109,6 @@
       max-width: 550px;
       font-size: 20px;
       line-height: 35px;
-   }
-
-   .contactDetails {
-      gap: 30px;
-   }
-
-   .contactDetail {
-      gap: 10px;
    }
 
    .contactRight {
