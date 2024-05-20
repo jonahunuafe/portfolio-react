@@ -114,6 +114,10 @@
       margin-top: 100px;
    }
 
+   .myWork p {
+      margin-top: 7px;
+   }
+
    .linkContainer {
       justify-content: flex-start;
    }
