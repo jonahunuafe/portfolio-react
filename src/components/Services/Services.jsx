@@ -1,6 +1,7 @@
 import React from 'react';
 import styles from "./Services.module.css";
 import Service_Data from "../data";
+import { FaArrowRight } from "react-icons/fa";
 
 const Services = () => {
   return (
@@ -17,6 +18,7 @@ const Services = () => {
             <div key={index} className={styles.servicesFormat}>
                <h3>{service.s_no}</h3>
                <h2>{service.s_name}</h2>
+               <FaArrowRight />
             </div>
          ))}
       </div>
