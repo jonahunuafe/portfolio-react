@@ -87,19 +87,17 @@
    .authorAction p {
       width: 600px;
       text-align: left;
-      font-size: 24px;
+      font-size: 20px;
       line-height: 40px;
    }
 
    .authorAction {
       gap: 25px;
-      font-size: 20px;
       margin-top: 100px;
       align-items: start;
    }
 
    .authorConnect {
-      font-weight: 200;
       padding: 10px 15px;
    }
 }
