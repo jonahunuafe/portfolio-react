@@ -40,7 +40,6 @@
 }
 
 .myWork p {
-   font-size: 1.5em;
    padding-top: 2rem;
    text-align: center;
 }
@@ -59,10 +58,7 @@
    align-items: center;
    justify-content: center;
    margin-top: 3rem;
-}
-
-.linkContainer h4 {
-   margin-bottom: 0.5rem;
+   padding-bottom: 0.5rem;
 }
 
 .myWork h1 {

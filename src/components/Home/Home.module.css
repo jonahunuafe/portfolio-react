@@ -35,7 +35,6 @@
 
 .authorAction p {
    text-align: center;
-   font-size: 1.2em;
    line-height: 1.8;
 }
 
@@ -44,9 +43,7 @@
    flex-direction: column;
    align-items: center;
    gap: 2rem;
-   font-size: 1.2em;
-   font-weight: 500;
-   margin-top: 2rem;
+   margin-top: 1.2rem;
 }
 
 .authorConnect {
