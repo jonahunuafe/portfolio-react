@@ -9,7 +9,8 @@ const Services = () => {
       <div className={styles.servicesTitle}>
          <h1>My Services</h1>
          <p>
-            
+            Explore my services to discover how we can collaborate to create something truly 
+            remarkable. Let's make your project a success!
          </p>
       </div>
       <div className={styles.servicesContainer}>
