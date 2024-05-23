@@ -20,12 +20,20 @@ const About = () => {
          <div className={classes.aboutPara}>
             <p>
                I am a Frontend Developer with an unusual experience in transforming your 
-               ideas, and consequently your aspirations, into a distinctive, interactive and 
-               user-friendly websites that both inspires you and captivates your viewers...
+               ideas, and consequently your aspirations through web technologies, into a 
+               distinctive, interactive and user-friendly websites that both inspires you 
+               and captivates your viewers...
             </p>
             <p>
                My passion for frontend development is not only reflected in my extensive 
-               experience but also in the enthusiasm and dedication I bring to each project.
+               experience but also in the enthusiasm and dedication I bring to each project
+               ensuring a seamless, efficient, and visually stunning web pages.
+            </p>
+            <p>
+               From inception to consummation, I work closely with clients to understand
+               their perception and deliver customized solutions that surpass expectations. 
+               Whether you’re looking to modify your online presence or develop a complex 
+               web application, I'm here to help you achieve your goals."
             </p>
          </div>
          <div className={classes.aboutSkills}>

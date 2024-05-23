@@ -44,8 +44,7 @@
 
 @media(min-width: 768px) {
    .aboutSection {
-      flex-direction: row;
-      gap: 100px;
+      gap: 20px;
    }
 
    .aboutSkills {
