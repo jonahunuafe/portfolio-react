@@ -1,4 +1,4 @@
-import React from 'react';  
+import React from 'react'; 
 import jonah_img from "../../assets/images/jonah-photo.jpg";
 import classes from "./Home.module.css";
 

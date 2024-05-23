@@ -41,17 +41,6 @@
    text-align: center;
 }
 
-.aboutLeft {
-   display: flex;
-   flex-direction: column;
-   align-items: center;
-}
-
-.aboutLeft img {
-   width: 50%;
-   border-radius: 5px;
-}
-
 
 @media(min-width: 768px) {
    .aboutSection {
@@ -70,9 +59,5 @@
    .aboutSection p, .icon {
       font-size: 20px;
       text-align: left;
-   }
-
-   .aboutLeft img {
-      width: 100%;
    }
 }

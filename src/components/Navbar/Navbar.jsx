@@ -1,5 +1,4 @@
-import React, { useRef } from 'react'
-import { useState } from "react";
+import React, { useRef, useState } from 'react'
 import { FaMinus } from "react-icons/fa";
 import { RxHamburgerMenu } from "react-icons/rx";
 import { MdClose } from "react-icons/md";
@@ -26,7 +25,9 @@ const Navbar = () => {
 
   return (
    <div className={classes.navbar}>
-      <h1>JonahWeb</h1>
+      <a href="#home">
+         <h1>JonahWeb</h1>
+      </a>
       <RxHamburgerMenu className={classes.openMobileNav} onClick={openMenu} />
       <ul ref={menuRef} className={classes.navList}>
          <MdClose  className={classes.closeMobileNav} onClick={closeMenu} />
