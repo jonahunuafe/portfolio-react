@@ -54,19 +54,22 @@ export const mywork_data = [
       w_no: 1,
       live_url: "https://dino-studio.netlify.app/",
       w_techstack: "HTML, CSS, BOOTSTRAP, JAVASCRIPT, REACT",
-      w_img: dino_img
+      w_img: dino_img,
+      source_code: "https://github.com/chingu-voyages/v48-tier2-team-14",
    },
    {
       w_no: 2,
       live_url: "https://tv-show-app-ten.vercel.app/",
       w_techstack: "HTML, CSS, JAVASCRIPT, REACT",
-      w_img: tvshow_img
+      w_img: tvshow_img,
+      source_code: "https://github.com/jonahunuafe/tv-show-app",
    },
    {
       w_no: 3,
       live_url: "https://jonahunuafe.github.io/designo-multi-page-website/",
       w_techstack: "HTML, CSS, JAVASCRIPT",
       w_img: designo_img,
+      source_code: "https://github.com/jonahunuafe/designo-multi-page-website",
    },
    // {
    //    w_no: 4,

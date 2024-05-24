@@ -33,12 +33,6 @@
    color: #fff;
 }
 
-.linkContainer a:hover {
-   background-color: #fff;
-   color: #378CE7;
-   padding: 0.3rem 0.3rem;
-}
-
 .myWork p {
    padding-top: 2rem;
    text-align: center;
@@ -56,9 +50,20 @@
 .linkContainer {
    display: flex;
    align-items: center;
-   justify-content: center;
+   justify-content: space-between;
    margin-top: 3rem;
-   padding-bottom: 0.5rem;
+   padding: 0rem 0.5rem 0.5rem;
+}
+
+.link {
+   display: flex;
+   align-items: center;
+}
+
+.link a:hover, .source a:hover {
+   background-color: #fff;
+   color: #378CE7;
+   padding: 0.3rem 0.3rem;
 }
 
 .myWork h1 {
@@ -103,7 +108,7 @@
 
 @media(min-width: 786px) {
    .myWorkContainer {
-      grid-template-columns: 1fr 1fr 1fr;
+      grid-template-columns: repeat(auto-fill, minmax(20rem, 1fr));
       column-gap: 40px;
       row-gap: 5px;
       text-align: left;
@@ -122,7 +127,7 @@
       font-size: 20px;
    }
 
-   .linkContainer {
+   /* .linkContainer {
       justify-content: flex-start;
-   }
+   } */
 }
