@@ -1,4 +1,3 @@
-import e_commerce_img from "../assets/images/e-commerce_img.webp"
 import elegant_img from "../assets/images/elegant_img.png";
 import final_countdown_img from "../assets/images/final countdown.png"
 import placepicker_img from "../assets/images/placepicker.png";
@@ -37,6 +36,14 @@ const services = [
    {
       s_no: "07", 
       s_name: "Custom Web Development"
+   },
+   {
+      s_no: "08", 
+      s_name: "Fullstack Application"
+   },
+   {
+      s_no: "09", 
+      s_name: "Multi Page  Websites"
    },
 ]
 
