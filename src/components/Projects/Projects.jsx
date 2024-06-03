@@ -25,7 +25,9 @@ const Projects = () => {
                            <FaLink  />
                            <a href={recentWork.live_url} target="_blank">Live site</a>
                         </div>
-                        <div className={styles.source}><a href={recentWork.source_code}>Source Code</a></div>
+                        <div className={styles.source}>
+                           <a href={recentWork.source_code} target="_blank">Source Code</a>
+                        </div>
                      </div>
                      <div className={styles.imageContainer}>
                         <img src={recentWork.w_img} alt="project images" />
