@@ -23,9 +23,9 @@ const Services = () => {
             </div>
          ))}
       </div>
-      <p>
-         {/* <Link to="/resume">Resume</Link> */}
-      </p>
+      <Link to="/resume">
+         My Resume
+      </Link>
     </div>
   )
 }
