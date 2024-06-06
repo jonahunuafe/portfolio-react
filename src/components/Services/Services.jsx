@@ -2,6 +2,7 @@ import React from 'react';
 import styles from "./Services.module.css";
 import Service_Data from "../data";
 import { FaArrowRight } from "react-icons/fa";
+import { Link } from 'react-router-dom';
 
 const Services = () => {
   return (
@@ -22,6 +23,9 @@ const Services = () => {
             </div>
          ))}
       </div>
+      <p>
+         {/* <Link to="/resume">Resume</Link> */}
+      </p>
     </div>
   )
 }

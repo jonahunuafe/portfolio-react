@@ -1,28 +1,18 @@
 import React from "react";
-import Home from "./components/Home/Home"
-import About from "./components/About/About";
-import Services from "./components/Services/Services";
-import Projects from "./components/Projects/Projects";
-import Contact from "./components/Contact/Contact";
-import Footer from "./components/Footer/Footer"
-import Navbar from "./components/Navbar/Navbar";
+import RootLayout from "./components/Layout/RootLayout";
+import MyResume from "./components/Resume/Resume";
+
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
+
+const router = createBrowserRouter([
+  { path: "/", element: <RootLayout />},
+  { path: "/resume", element: <MyResume /> }
+])
 
 const App = () => {
   return (
-    <>
-      <Navbar />
-      <div className="overallContainer">
-        <Home />
-        <About />
-        <Services />
-      </div>
-      <Projects />
-      <div className="overallContainer">
-        <Contact  />
-      </div>
-      <Footer />
-    </>
+    <RouterProvider router={router} />
   )
 }
 
-export default App
+export default App;

@@ -56,6 +56,7 @@ const Contact = () => {
                <span>{result}</span>
                <button type="submit" className={styles.contactSubmit}>Submit</button>
             </form>
+            {/* <a href="images/mycv.pdf" download>Download</a> */}
          </div>
       </div>
   );
