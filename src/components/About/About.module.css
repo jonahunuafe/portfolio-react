@@ -16,24 +16,6 @@
    line-height: 1.5;
 }
 
-.aboutSkills {
-   display: grid;
-   grid-template-columns: repeat(2, 1fr);
-   gap: 1.5rem;
-   padding-top: 2rem;
-   /* margin-bottom: 3rem; */
-}
-
-.aboutSkill {
-   display: flex;
-   align-items: center;
-   gap: 0.5rem;
-   margin: auto;
-   background: linear-gradient(264deg, #DF8908 -5.09%, #B415FF 102.28%);
-   padding: 0.2rem 0.5rem;
-   border-radius: 5px;
-}
-
 .aboutPara {
    display: flex;
    flex-direction: column;
@@ -66,10 +48,6 @@
 @media(min-width: 768px) {
    .aboutSection {
       gap: 20px;
-   }
-
-   .aboutSkills {
-      grid-template-columns: repeat(4, 1fr);
    }
 
    .aboutTitle h1 {

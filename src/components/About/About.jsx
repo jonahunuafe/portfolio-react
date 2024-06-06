@@ -1,12 +1,4 @@
 import React from 'react';
-import { IoLogoHtml5 } from "react-icons/io5";
-import { IoLogoCss3 } from "react-icons/io";
-import { IoLogoJavascript } from "react-icons/io5";
-import { IoLogoReact } from "react-icons/io5";
-import { TbBrandNextjs } from "react-icons/tb";
-import { FaGitAlt } from "react-icons/fa";
-import { FaGithub } from "react-icons/fa";
-import { BiLogoVisualStudio } from "react-icons/bi";
 import { Link } from 'react-router-dom';
 
 import classes from "./About.module.css";
@@ -36,40 +28,6 @@ const About = () => {
                Whether you’re looking to modify your online presence or develop a complex 
                web application, I'm here to help you achieve your goals."
             </p>
-         </div>
-         <div className={classes.aboutSkills}>
-            {/* <div className={classes.aboutSkill}>
-               <p>HTML</p>
-               <IoLogoHtml5 className={classes.icon}/>
-            </div>
-            <div className={classes.aboutSkill}>
-               <p>CSS</p>
-               <IoLogoCss3 className={classes.icon}/>
-            </div>
-            <div className={classes.aboutSkill}>
-               <p>JavaScript</p>
-               <IoLogoJavascript className={classes.icon}/>
-            </div>
-            <div className={classes.aboutSkill}>
-               <p>React JS</p>
-               <IoLogoReact className={classes.icon}/>
-            </div>
-            <div className={classes.aboutSkill}>
-               <p>Next JS</p> 
-               <TbBrandNextjs className={classes.icon} />
-            </div>
-            <div className={classes.aboutSkill}>
-               <p>GIT</p>
-               <FaGitAlt className={classes.icon} /> 
-            </div>
-            <div className={classes.aboutSkill}>
-               <p>GITHUB</p> 
-               <FaGithub className={classes.icon} />
-            </div>
-            <div className={classes.aboutSkill}>
-               <p>VS CODE</p> 
-               <BiLogoVisualStudio className={classes.icon} />
-            </div> */}
          </div>
       </div>
       <p className={classes.resume}>
