@@ -50,10 +50,10 @@ const Navbar = () => {
                   {menu === "services" && <FaMinus className={classes.minusSign} />}
                </AnchorLink>
                </li>
-            <li onClick={() => menuHandler("work")}>
+            <li onClick={() => menuHandler("projects")}>
                <AnchorLink className={classes.AnchorLink} offset={50} href="#projects">
                   Projects
-                  {menu === "work" && <FaMinus className={classes.minusSign} />}
+                  {menu === "projects" && <FaMinus className={classes.minusSign} />}
                </AnchorLink>
                </li>
             <li onClick={() => menuHandler("contact")}>

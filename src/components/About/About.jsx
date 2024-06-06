@@ -7,6 +7,7 @@ import { TbBrandNextjs } from "react-icons/tb";
 import { FaGitAlt } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 import { BiLogoVisualStudio } from "react-icons/bi";
+import { Link } from 'react-router-dom';
 
 import classes from "./About.module.css";
 
@@ -37,7 +38,7 @@ const About = () => {
             </p>
          </div>
          <div className={classes.aboutSkills}>
-            <div className={classes.aboutSkill}>
+            {/* <div className={classes.aboutSkill}>
                <p>HTML</p>
                <IoLogoHtml5 className={classes.icon}/>
             </div>
@@ -68,9 +69,14 @@ const About = () => {
             <div className={classes.aboutSkill}>
                <p>VS CODE</p> 
                <BiLogoVisualStudio className={classes.icon} />
-            </div>
+            </div> */}
          </div>
       </div>
+      <p className={classes.resume}>
+         <Link to="/resume">
+            My Resume
+         </Link>
+      </p>
    </div>
   );
 }
