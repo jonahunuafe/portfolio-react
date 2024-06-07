@@ -10,14 +10,16 @@ function MyResume() {
             <div className={classes.contactInfo}>
                 <span>+2348136250050</span>
                 <span>fejisfejiro@gmail.com</span>
-                <span>
-                    <Link to="https://www.linkedin.com/in/jonahunuafe">
-                        jonahunuafe
-                    </Link>
-                </span>
-                <span>
-                    <Link to="https://github.com/jonahunuafe">Github</Link>
-                </span>
+                <div className={classes.headerSpan}>
+                    <span>
+                        <Link to="https://www.linkedin.com/in/jonahunuafe">
+                            jonahunuafe
+                        </Link>
+                    </span>
+                    <span>
+                        <Link to="https://github.com/jonahunuafe">Github</Link>
+                    </span>
+                </div>
             </div>
         </header>
         <div className={classes.resume}>

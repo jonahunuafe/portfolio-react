@@ -1,3 +1,21 @@
+.header {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.contactInfo {
+    display: grid;
+}
+
+.headerSpan {
+    display: flex;
+    gap: 2rem;
+}
+
 .resume {
     display: flex;
     flex-direction: column;
@@ -25,6 +43,11 @@
 }
 
 @media(min-width: 768px) {
+    .contactInfo {
+        display: flex;
+        gap: 2rem;
+    }
+
     .resume {
         flex-direction: row;
         justify-content: space-between;
