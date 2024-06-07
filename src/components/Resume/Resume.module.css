@@ -39,7 +39,11 @@
         margin: 0rem;
     }
 
+    .strength p {
+        width: 500px;
+    }
+
     .summary p {
         width: 400px;
-     }
+    }
 }

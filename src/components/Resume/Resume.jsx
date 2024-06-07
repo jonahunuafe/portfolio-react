@@ -65,8 +65,14 @@ function MyResume() {
                 <div>
                     <h1>Training</h1>
                 </div>
-                <div>
+                <div className={classes.strength}>
                     <h1>Strengths</h1>
+                    <h4>Eager to Learn New Skills</h4>
+                    <p>
+                        With the constant evolvement and changes in the world of technology, am
+                        constantly seeking to expand my skill set and also finding new ways 
+                        to grow with diffrent framework and libraries.
+                    </p>
                 </div>
 
             </div>
@@ -97,7 +103,6 @@ function MyResume() {
                         will expand my skill set.
                     </p>
                 </div>
-                
             </div>
         </div>
     </>
