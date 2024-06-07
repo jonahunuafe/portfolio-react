@@ -127,8 +127,14 @@ function MyResume() {
                         </ul>
                     </div>
                 </div>
-                <div>
+                <div className={classes.projects}>
                     <h1>Projects</h1>
+                    <p>
+                        Through Collaboration on Chingu, I built a Dino-Studio Educational App.
+                        I also built alot of projects on frontend mentor across various platforms.
+                        These projects and more, including my personal projects can be seen on my 
+                        Github page.
+                    </p>
                 </div>
                 <div className={classes.summary}>
                     <h1>Summary</h1>

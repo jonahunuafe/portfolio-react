@@ -87,7 +87,7 @@
         width: 500px;
     }
 
-    .summary p {
+    .summary p, .projects {
         width: 400px;
     }
 }
