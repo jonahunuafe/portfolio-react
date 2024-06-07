@@ -1,0 +1,45 @@
+.resume {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin: auto;
+    /* outline: 1px solid red; */
+}
+
+.mainSkills {
+    display: flex;
+    flex-direction: column;
+}
+
+.mainSkills ul {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    column-gap: 2rem;
+    row-gap: 1rem;
+    margin: auto auto auto 2rem;
+}
+
+.edu ul {
+    margin: auto auto auto 2rem;
+}
+
+@media(min-width: 768px) {
+    .resume {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .mainSkills {
+        flex-direction: row;
+        gap: 3rem;
+    }
+
+    .mainSkills ul {
+        margin: 0rem;
+    }
+
+    .summary p {
+        width: 400px;
+     }
+}
