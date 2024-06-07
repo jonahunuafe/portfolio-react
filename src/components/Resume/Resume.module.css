@@ -1,19 +1,39 @@
 .header {
-    width: 90%;
-    margin: auto;
     display: flex;
     flex-direction: column;
     align-items: center;
-    text-align: center;
+    gap: 1.5rem;
+    margin-top: 2rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 2px solid #0C359E;
+}
+
+.linkContainer {
+    display: flex;
+    gap: 2rem;
+}
+
+.linkContainer a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.linkContainer a:hover {
+    color: #4793AF;
+    transform: scale(1.1);
 }
 
 .contactInfo {
-    display: grid;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
 }
 
-.headerSpan {
+.contactInfo span, .linkContainer a {
     display: flex;
-    gap: 2rem;
+    align-items: center;
+    gap: 0.35rem;
 }
 
 .resume {
@@ -45,6 +65,7 @@
 @media(min-width: 768px) {
     .contactInfo {
         display: flex;
+        flex-direction: row;
         gap: 2rem;
     }
 

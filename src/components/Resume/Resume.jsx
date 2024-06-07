@@ -2,23 +2,27 @@ import React from 'react';
 import classes from "./Resume.module.css"
 import { Link } from 'react-router-dom';
 
+import { IoCall } from "react-icons/io5";
+import { MdEmail } from "react-icons/md";
+import { FaLinkedin } from "react-icons/fa";
+import { FaGithub } from "react-icons/fa6";
+
 function MyResume() {
   return (
     <>
         <header className={classes.header}>
             <h1>Jonah Unuafe</h1>
             <div className={classes.contactInfo}>
-                <span>+2348136250050</span>
-                <span>fejisfejiro@gmail.com</span>
-                <div className={classes.headerSpan}>
-                    <span>
-                        <Link to="https://www.linkedin.com/in/jonahunuafe">
-                            jonahunuafe
-                        </Link>
-                    </span>
-                    <span>
-                        <Link to="https://github.com/jonahunuafe">Github</Link>
-                    </span>
+                <span><IoCall /> +2348136250050</span>
+                <span><MdEmail /> fejisfejiro@gmail.com</span>
+                <div className={classes.linkContainer}>
+                    <Link to="https://www.linkedin.com/in/jonahunuafe">
+                        <FaLinkedin /> jonahunuafe
+                    </Link>
+
+                    <Link to="https://github.com/jonahunuafe">
+                        <FaGithub /> Github
+                    </Link>
                 </div>
             </div>
         </header>
