@@ -70,14 +70,37 @@ function MyResume() {
                 </div>
                 <div>
                     <h1>Training</h1>
+                    <div>
+                        <h3>CS50's Introduction to Computer Science</h3>
+                        <p>
+                            Gained insight into intellectual enterprises of computer science and 
+                            the art of programming.
+                        </p>
+                        <span>Harvard University - David J. Malan</span>
+                        <h3>The Web Developer Bootcamp</h3>
+                        <p>Learned indept HTML, CSS, JavaScript, React, Node and MongoDB</p> 
+                        <span>Course provider - Udemy</span>
+                        <h3>React - The Complete Guide</h3>
+                        <p>
+                            Deep dived into learning React, Hooks, Redux, React Router and Next.js
+                        </p>
+                        <span>Course provider - Udemy</span>
+                    </div>
                 </div>
                 <div className={classes.strength}>
                     <h1>Strengths</h1>
-                    <h4>Eager to Learn New Skills</h4>
+                    <h3>Eager to Learn New Skills</h3>
                     <p>
                         With the constant evolvement and changes in the world of technology, am
                         constantly seeking to expand my skill set and also finding new ways 
-                        to grow with diffrent framework and libraries.
+                        to grow with different framework and libraries.
+                    </p>
+                    <h3>Collaboration</h3>
+                    <p>
+                        I always derive joy and satisfaction working with a team. Keeping in mind 
+                        the template of the job making sure assigned task are well understood and 
+                        delivered within the necessary time frame. Collaborating and working with 
+                        others has always been a good ground to learn new things.
                     </p>
                 </div>
 
