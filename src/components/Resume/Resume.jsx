@@ -77,6 +77,12 @@ function MyResume() {
                             the art of programming.
                         </p>
                         <span>Harvard University - David J. Malan</span>
+                        <h3>FreeCode Camp</h3>
+                        <ul>
+                            <li>Responsive Web Design Certification</li>
+                            <li>Javascript Algorithms and Data Structures(Beta) Certification</li>
+                            <li>Front End Developement Libraries Certification</li>
+                        </ul>
                         <h3>The Web Developer Bootcamp</h3>
                         <p>Learned indept HTML, CSS, JavaScript, React, Node and MongoDB</p> 
                         <span>Course provider - Udemy</span>
