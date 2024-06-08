@@ -11,6 +11,9 @@ import { IoLogoCss3 } from "react-icons/io";
 import { IoLogoJavascript } from "react-icons/io5";
 import { TbBrandNextjs } from "react-icons/tb";
 import { FaReact } from "react-icons/fa6";
+import { FaGitAlt } from "react-icons/fa";
+import { IoIosCloudOutline } from "react-icons/io";
+import { SiMongodb } from "react-icons/si";
 
 function MyResume() {
   return (
@@ -48,10 +51,10 @@ function MyResume() {
                     </div>
                     <div className={classes.mainSkills}>
                         <h3>Miscellaneous |</h3>
-                        <span>Git</span>
-                        <span>Github</span>
-                        <span>Cloudinary</span>
-                        <span>MongoDB</span>
+                        <span><FaGitAlt /> Git</span>
+                        <span><FaGithub /> Github</span>
+                        <span><IoIosCloudOutline /> Cloudinary</span>
+                        <span><SiMongodb /> MongoDB</span>
                     </div>
                 </div>
                 <div className={classes.experience}>
