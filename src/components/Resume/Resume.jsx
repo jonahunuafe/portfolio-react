@@ -6,6 +6,11 @@ import { IoCall } from "react-icons/io5";
 import { MdEmail } from "react-icons/md";
 import { FaLinkedin } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa6";
+import { FaHtml5 } from "react-icons/fa6";
+import { IoLogoCss3 } from "react-icons/io";
+import { IoLogoJavascript } from "react-icons/io5";
+import { TbBrandNextjs } from "react-icons/tb";
+import { FaReact } from "react-icons/fa6";
 
 function MyResume() {
   return (
@@ -32,14 +37,14 @@ function MyResume() {
                     <h1>Skills</h1>
                     <div className={classes.mainSkills}>
                         <h3>Frontend Development |</h3>
-                        <span>HTML</span>
-                        <span>CSS</span>
-                        <span>JAVASCRIPT</span>
-                        <span>REACT</span>
+                        <span><FaHtml5 /> HTML 5</span>
+                        <span><IoLogoCss3 /> CSS 3</span>
+                        <span><IoLogoJavascript /> JavaScript</span>
+                        <span><FaReact /> React</span>
                     </div>
                     <div className={classes.mainSkills}>
                         <h3>Fullstack Application |</h3>
-                        <span>Nextjs</span>
+                        <span><TbBrandNextjs /> Nextjs</span>
                     </div>
                     <div className={classes.mainSkills}>
                         <h3>Miscellaneous |</h3>
@@ -51,7 +56,7 @@ function MyResume() {
                 </div>
                 <div className={classes.experience}>
                     <h1>Experience</h1>
-                    <div className={classes.mainSkills}>
+                    <div>
                         <h3>Chingu |</h3>
                         <span>
                             Collaborated with other developers on chingu and created a 
