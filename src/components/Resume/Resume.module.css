@@ -41,7 +41,22 @@
     flex-direction: column;
     width: 90%;
     margin: auto;
-    /* outline: 1px solid red; */
+    letter-spacing: 1px;
+    /* line-height: 2; */
+    margin-top: 1rem;
+}
+
+.projects a {
+    text-decoration: none;
+    color: #028391;
+}
+
+.skills, .experience, .training, .projects {
+    /* outline: 1px solid orange; */
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+    margin-bottom: 2rem;
 }
 
 .mainSkills {
@@ -83,11 +98,11 @@
         margin: 0rem;
     }
 
-    .strength p {
+    .projects {
         width: 500px;
     }
 
-    .summary p, .projects {
+    .summary, .strength {
         width: 400px;
     }
 }

@@ -28,7 +28,7 @@ function MyResume() {
         </header>
         <div className={classes.resume}>
             <div className={classes.leftSide}>
-                <div>
+                <div className={classes.skills}>
                     <h1>Skills</h1>
                     <div className={classes.mainSkills}>
                         <h3>Frontend Development |</h3>
@@ -56,7 +56,7 @@ function MyResume() {
                         </ul>
                     </div>
                 </div>
-                <div>
+                <div className={classes.experience}>
                     <h1>Experience</h1>
                     <div className={classes.mainSkills}>
                         <h3>Chingu |</h3>
@@ -68,7 +68,7 @@ function MyResume() {
                         </ul>
                     </div>
                 </div>
-                <div>
+                <div className={classes.training}>
                     <h1>Training</h1>
                     <div>
                         <h3>CS50's Introduction to Computer Science</h3>
@@ -77,20 +77,52 @@ function MyResume() {
                             the art of programming.
                         </p>
                         <span>Harvard University - David J. Malan</span>
+                    </div>
+                    <div>
                         <h3>FreeCode Camp</h3>
                         <ul>
                             <li>Responsive Web Design Certification</li>
                             <li>Javascript Algorithms and Data Structures(Beta) Certification</li>
                             <li>Front End Developement Libraries Certification</li>
                         </ul>
+                    </div>
+                    <div>
                         <h3>The Web Developer Bootcamp</h3>
                         <p>Learned indept HTML, CSS, JavaScript, React, Node and MongoDB</p> 
                         <span>Course provider - Udemy</span>
+                    </div>
+                    <div>
                         <h3>React - The Complete Guide</h3>
                         <p>
                             Deep dived into learning React, Hooks, Redux, React Router and Next.js
                         </p>
                         <span>Course provider - Udemy</span>
+                    </div>
+                </div>
+                <div className={classes.projects}>
+                    <h1>Projects</h1>
+                    <p>
+                        Through Collaboration on Chingu, I built a Dino-Studio Educational App.
+                        I also built alot of projects on frontend mentor across various platforms.
+                        These projects and more, including my personal projects can be seen on my 
+                        <Link to="https://github.com/jonahunuafe"> Github page.</Link>
+                    </p>
+                </div>
+            </div>
+            <div className={classes.rightSide}>
+                <div>
+                    <h1>Education</h1>
+                    <div className={classes.edu}>
+                        <h3>Delta State University</h3>
+                        <ul>
+                            <li>B.sc Ed. (Chemistry Education)</li>
+                        </ul>
+                    </div>
+                    <div className={classes.edu}>
+                        <h3>College of Education</h3>
+                        <ul>
+                            <li>National Certificate in Education <br/>(Physics/Chemistry)</li>
+                        </ul>
                     </div>
                 </div>
                 <div className={classes.strength}>
@@ -110,32 +142,6 @@ function MyResume() {
                     </p>
                 </div>
 
-            </div>
-            <div className={classes.rightSide}>
-                <div>
-                    <h1>Education</h1>
-                    <div className={classes.edu}>
-                        <h3>Delta State University</h3>
-                        <ul>
-                            <li>B.sc Ed. (Chemistry Education)</li>
-                        </ul>
-                    </div>
-                    <div className={classes.edu}>
-                        <h3>College of Education</h3>
-                        <ul>
-                            <li>National Certificate in Education <br/>(Physics/Chemistry)</li>
-                        </ul>
-                    </div>
-                </div>
-                <div className={classes.projects}>
-                    <h1>Projects</h1>
-                    <p>
-                        Through Collaboration on Chingu, I built a Dino-Studio Educational App.
-                        I also built alot of projects on frontend mentor across various platforms.
-                        These projects and more, including my personal projects can be seen on my 
-                        Github page.
-                    </p>
-                </div>
                 <div className={classes.summary}>
                     <h1>Summary</h1>
                     <p>
