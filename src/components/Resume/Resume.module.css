@@ -44,6 +44,7 @@
     letter-spacing: 1px;
     margin-top: 1rem;
     margin-bottom: 2rem;
+    text-align: center;
 }
 
 .projects a {
@@ -70,13 +71,27 @@
 .mainSkills ul {
     display: flex;
     align-items: center;
-    flex-wrap: wrap;
+    justify-content: center;
+    /* flex-wrap: wrap; */
     column-gap: 2rem;
-    row-gap: 1rem;
+    /* row-gap: 1rem; */
+    outline: 2px solid magenta;
+    width: 100%;
 }
 
+.mainSkills ul li {
+    /* display: flex; */
+    /* align-items: center; */
+    /* justify-content: center; */
+    /* width: 100%; */
+    outline: 1px solid green;
+}
+
+
 .freeCodeCamp ul, .mainSkills ul {
-    margin: auto auto auto 2rem;
+    /* margin: auto auto auto 2rem; */
+    margin: auto;
+    width: 80%;
 }
 
 .edu ul {

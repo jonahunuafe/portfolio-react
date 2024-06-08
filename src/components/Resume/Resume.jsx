@@ -32,40 +32,31 @@ function MyResume() {
                     <h1>Skills</h1>
                     <div className={classes.mainSkills}>
                         <h3>Frontend Development |</h3>
-                        <ul>
-                            <li>HTML</li>
-                            <li>CSS</li>
-                            <li>JAVASCRIPT</li>
-                            <li>REACT</li>
-                        </ul>
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JAVASCRIPT</span>
+                        <span>REACT</span>
                     </div>
                     <div className={classes.mainSkills}>
                         <h3>Fullstack Application |</h3>
-                        <ul>
-                            <li>Nextjs</li>
-                        </ul>
+                        <span>Nextjs</span>
                     </div>
                     <div className={classes.mainSkills}>
                         <h3>Miscellaneous |</h3>
-                        <ul>
-                            <li>Git</li>
-                            <li>Github</li>
-                            <li>Cloudinary</li>
-                            <li>MongoDB</li>
-                            <li>Firebase</li>
-                        </ul>
+                        <span>Git</span>
+                        <span>Github</span>
+                        <span>Cloudinary</span>
+                        <span>MongoDB</span>
                     </div>
                 </div>
                 <div className={classes.experience}>
                     <h1>Experience</h1>
                     <div className={classes.mainSkills}>
                         <h3>Chingu |</h3>
-                        <ul>
-                            <li>
-                                Collaborated with other developers on chingu and created a 
-                                functional Dinosaur Educational app.
-                            </li>
-                        </ul>
+                        <span>
+                            Collaborated with other developers on chingu and created a 
+                            functional Dinosaur Educational app.
+                        </span>
                     </div>
                 </div>
                 <div className={classes.training}>
@@ -80,11 +71,9 @@ function MyResume() {
                     </div>
                     <div className={classes.freeCodeCamp}>
                         <h3>FreeCode Camp</h3>
-                        <ul>
-                            <li>Responsive Web Design Certification</li>
-                            <li>Javascript Algorithms and Data Structures(Beta) Certification</li>
-                            <li>Front End Developement Libraries Certification</li>
-                        </ul>
+                        <span>Responsive Web Design Certification</span>
+                        <span>Javascript Algorithms and Data Structures(Beta) Certification</span>
+                        <span>Front End Developement Libraries Certification</span>
                     </div>
                     <div>
                         <h3>The Web Developer Bootcamp</h3>
@@ -114,15 +103,11 @@ function MyResume() {
                     <h1>Education</h1>
                     <div className={classes.edu}>
                         <h3>Delta State University</h3>
-                        <ul>
-                            <li>B.sc Ed. (Chemistry Education)</li>
-                        </ul>
+                        <span>B.sc Ed. (Chemistry Education)</span>
                     </div>
                     <div className={classes.edu}>
                         <h3>College of Education</h3>
-                        <ul>
-                            <li>National Certificate in Education <br/>(Physics/Chemistry)</li>
-                        </ul>
+                        <span>National Certificate in Education (Physics/Chemistry)</span>
                     </div>
                 </div>
                 <div className={classes.strength}>
