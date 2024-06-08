@@ -49,14 +49,16 @@ function MyResume() {
                     </div>
                     <div className={classes.mainSkills}>
                         <h3>Fullstack Application |</h3>
-                        <span><TbBrandNextjs /> Nextjs</span>
+                        <span className={classes.nextjs}><TbBrandNextjs /> Nextjs</span>
                     </div>
                     <div className={classes.mainSkills}>
                         <h3>Miscellaneous |</h3>
-                        <span><FaGitAlt /> Git</span>
-                        <span><FaGithub /> Github</span>
-                        <span><IoIosCloudOutline /> Cloudinary</span>
-                        <span><SiMongodb /> MongoDB</span>
+                        <div className={classes.spanContainer}>
+                            <span><FaGitAlt /> Git</span>
+                            <span><FaGithub /> Github</span>
+                            <span><IoIosCloudOutline /> Cloudinary</span>
+                            <span><SiMongodb /> MongoDB</span>
+                        </div>
                     </div>
                 </div>
                 <div className={classes.experience}>
