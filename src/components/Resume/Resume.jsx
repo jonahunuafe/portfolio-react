@@ -63,7 +63,7 @@ function MyResume() {
                         <ul>
                             <li>
                                 Collaborated with other developers on chingu and created a 
-                                functional <br/> Dinosaur Educational app.
+                                functional Dinosaur Educational app.
                             </li>
                         </ul>
                     </div>
@@ -78,7 +78,7 @@ function MyResume() {
                         </p>
                         <span>Harvard University - David J. Malan</span>
                     </div>
-                    <div>
+                    <div className={classes.freeCodeCamp}>
                         <h3>FreeCode Camp</h3>
                         <ul>
                             <li>Responsive Web Design Certification</li>
@@ -110,7 +110,7 @@ function MyResume() {
                 </div>
             </div>
             <div className={classes.rightSide}>
-                <div>
+                <div className={classes.education}>
                     <h1>Education</h1>
                     <div className={classes.edu}>
                         <h3>Delta State University</h3>

@@ -42,8 +42,8 @@
     width: 90%;
     margin: auto;
     letter-spacing: 1px;
-    /* line-height: 2; */
     margin-top: 1rem;
+    margin-bottom: 2rem;
 }
 
 .projects a {
@@ -51,12 +51,15 @@
     color: #028391;
 }
 
-.skills, .experience, .training, .projects {
-    /* outline: 1px solid orange; */
+.skills, .experience, .training, .projects, .education, .strength, .summary {
     display: flex;
     flex-direction: column;
     gap: 0.8rem;
     margin-bottom: 2rem;
+}
+
+.experience, .training, .projects, .education, .strength, .summary {
+    line-height: 1.5;
 }
 
 .mainSkills {
@@ -70,6 +73,9 @@
     flex-wrap: wrap;
     column-gap: 2rem;
     row-gap: 1rem;
+}
+
+.freeCodeCamp ul, .mainSkills ul {
     margin: auto auto auto 2rem;
 }
 
@@ -98,11 +104,15 @@
         margin: 0rem;
     }
 
-    .projects {
-        width: 500px;
-    }
-
     .summary, .strength {
         width: 400px;
+    }
+
+    .skills, .experience, .training, .projects {
+        max-width: 80%;
+    }
+
+    .experience h3 {
+        width: 20%;
     }
 }
