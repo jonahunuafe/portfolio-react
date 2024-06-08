@@ -40,10 +40,12 @@ function MyResume() {
                     <h1>Skills</h1>
                     <div className={classes.mainSkills}>
                         <h3>Frontend Development |</h3>
-                        <span><FaHtml5 /> HTML 5</span>
-                        <span><IoLogoCss3 /> CSS 3</span>
-                        <span><IoLogoJavascript /> JavaScript</span>
-                        <span><FaReact /> React</span>
+                        <div className={classes.spanContainer}>
+                            <span><FaHtml5 /> HTML 5</span>
+                            <span><IoLogoCss3 /> CSS 3</span>
+                            <span><IoLogoJavascript /> JavaScript</span>
+                            <span><FaReact /> React</span>
+                        </div>
                     </div>
                     <div className={classes.mainSkills}>
                         <h3>Fullstack Application |</h3>
