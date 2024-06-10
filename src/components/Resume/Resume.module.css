@@ -98,14 +98,19 @@
     }
 
     .resume {
+        width: 70%;
         text-align: left;
     }
 
-    .exp {
+    .expand {
         display: flex;
         align-items: center;
         gap: 2rem;
     }
+
+    /* .expand p {
+        margin-top: -0.000005rem;
+    } */
 
     .mainSkills {
         flex-direction: row;

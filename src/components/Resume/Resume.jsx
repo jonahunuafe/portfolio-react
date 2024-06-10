@@ -63,44 +63,48 @@ function MyResume() {
                 </div>
                 <div className={classes.experience}>
                     <h1>Experience</h1>
-                    <div className={classes.exp}>
+                    <div className={classes.expand}>
                         <h3>Chingu |</h3>
-                        <span>
+                        <p>
                             Collaborated with other developers on chingu and created a 
                             functional Dinosaur Educational app.
-                        </span>
+                        </p>
                     </div>
                 </div>
                 <div className={classes.training}>
                     <h1>Training</h1>
-                    <div>
+                    <div className={classes.expand}>
                         <h3>CS50's Introduction to Computer Science</h3>
                         <p>
                             Gained insight into intellectual enterprises of computer science and 
                             the art of programming.
+                            <br />Harvard University - David J. Malan
                         </p>
-                        <span>Harvard University - David J. Malan</span>
                     </div>
-                    <div className={classes.freeCodeCamp}>
+                    <div className={classes.expand}>
                         <h3>FreeCode Camp</h3>
-                        <span>Responsive Web Design Certification</span>
-                        <span>Javascript Algorithms and Data Structures(Beta) Certification</span>
-                        <span>Front End Developement Libraries Certification</span>
+                        <p>
+                            Responsive Web Design Certification <br />
+                            Javascript Algorithms and Data Structures(Beta) Certification <br />
+                            Front End Developement Libraries Certification
+                        </p>
                     </div>
-                    <div>
+                    <div className={classes.expand}>
                         <h3>The Web Developer Bootcamp</h3>
-                        <p>Learned indept HTML, CSS, JavaScript, React, Node and MongoDB</p> 
-                        <span>Course provider - Udemy</span>
+                        <p>
+                            Learned indept HTML, CSS, JavaScript, React, Node and MongoDB <br />
+                            Course provider - Udemy
+                        </p> 
                     </div>
-                    <div>
+                    <div className={classes.expand}>
                         <h3>React - The Complete Guide</h3>
                         <p>
                             Deep dived into learning React, Hooks, Redux, React Router and Next.js
+                            <br /> Course provider - Udemy
                         </p>
-                        <span>Course provider - Udemy</span>
                     </div>
                 </div>
-                <div className={classes.projects}>
+                <div className={classes}>
                     <h1>Projects</h1>
                     <p>
                         Through Collaboration on Chingu, I built a Dino-Studio Educational App.
@@ -113,30 +117,34 @@ function MyResume() {
             <div className={classes.rightSide}>
                 <div className={classes.education}>
                     <h1>Education</h1>
-                    <div className={classes.edu}>
+                    <div className={classes.expand}>
                         <h3>Delta State University</h3>
                         <span>B.sc Ed. (Chemistry Education)</span>
                     </div>
-                    <div className={classes.edu}>
+                    <div className={classes.expand}>
                         <h3>College of Education</h3>
                         <span>National Certificate in Education (Physics/Chemistry)</span>
                     </div>
                 </div>
                 <div className={classes.strength}>
                     <h1>Strengths</h1>
-                    <h3>Eager to Learn New Skills</h3>
-                    <p>
-                        With the constant evolvement and changes in the world of technology, am
-                        constantly seeking to expand my skill set and also finding new ways 
-                        to grow with different framework and libraries.
-                    </p>
-                    <h3>Collaboration</h3>
-                    <p>
-                        I always derive joy and satisfaction working with a team. Keeping in mind 
-                        the template of the job making sure assigned task are well understood and 
-                        delivered within the necessary time frame. Collaborating and working with 
-                        others has always been a good ground to learn new things.
-                    </p>
+                    <div className={classes.expand}>
+                        <h3>Eager to Learn New Skills</h3>
+                        <p>
+                            With the constant evolvement and changes in the world of technology, am
+                            constantly seeking to expand my skill set and also finding new ways 
+                            to grow with different framework and libraries.
+                        </p>
+                    </div>
+                    <div className={classes.expand}>
+                        <h3>Collaboration</h3>
+                        <p>
+                            I always derive joy and satisfaction working with a team. Keeping in mind 
+                            the template of the job making sure assigned task are well understood and 
+                            delivered within the necessary time frame. Collaborating and working with 
+                            others has always been a good ground to learn new things.
+                        </p>
+                    </div>
                 </div>
 
                 <div className={classes.summary}>
