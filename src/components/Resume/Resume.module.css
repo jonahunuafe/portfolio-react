@@ -39,10 +39,10 @@
 .resume {
     display: flex;
     flex-direction: column;
-    width: 90%;
+    width: 85%;
     margin: auto;
     letter-spacing: 1px;
-    margin-top: 1rem;
+    margin-top: 2rem;
     margin-bottom: 2rem;
     text-align: center;
 }
@@ -124,12 +124,6 @@
     .expanded {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
-    }
-
-    .mainSkills {
-        flex-direction: row;
-        gap: 0rem;
-        margin-bottom: 1.5rem;
     }
 
     .spanContainer {
