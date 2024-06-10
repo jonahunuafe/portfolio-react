@@ -109,7 +109,7 @@ function MyResume() {
                         </p>
                     </div>
                 </div>
-                <div>
+                <div className={classes.projects}>
                     <h1>Projects</h1>
                     <p>
                         Through Collaboration on Chingu, I built a Dino-Studio Educational App.

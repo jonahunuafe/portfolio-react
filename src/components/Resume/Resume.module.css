@@ -49,7 +49,7 @@
 
 .projects a {
     text-decoration: none;
-    color: #028391;
+    color: #4793AF;
 }
 
 .skills, .experience, .training, .projects, .education, .strength, .summary {
@@ -90,7 +90,7 @@
     justify-content: center;
 }
 
-.skills, .experience, .training {
+.skills, .experience, .training, .projects {
     border-bottom: 1px solid #3AA6B9; 
     padding-bottom: 2rem;
 }
