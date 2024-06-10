@@ -90,7 +90,7 @@
     justify-content: center;
 }
 
-.skills, .experience {
+.skills, .experience, .training {
     border-bottom: 1px solid #3AA6B9; 
     padding-bottom: 2rem;
 }
