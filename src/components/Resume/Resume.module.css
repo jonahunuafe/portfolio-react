@@ -102,15 +102,14 @@
         text-align: left;
     }
 
-    .expand {
-        display: flex;
-        align-items: center;
-        gap: 2rem;
+    .resume p, .resume span, .resume h3 {
+        font-size: 20px;
     }
 
-    /* .expand p {
-        margin-top: -0.000005rem;
-    } */
+    .expanded {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
 
     .mainSkills {
         flex-direction: row;

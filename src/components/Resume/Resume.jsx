@@ -63,7 +63,7 @@ function MyResume() {
                 </div>
                 <div className={classes.experience}>
                     <h1>Experience</h1>
-                    <div className={classes.expand}>
+                    <div className={classes.expanded}>
                         <h3>Chingu |</h3>
                         <p>
                             Collaborated with other developers on chingu and created a 
@@ -73,7 +73,7 @@ function MyResume() {
                 </div>
                 <div className={classes.training}>
                     <h1>Training</h1>
-                    <div className={classes.expand}>
+                    <div className={classes.expanded}>
                         <h3>CS50's Introduction to Computer Science</h3>
                         <p>
                             Gained insight into intellectual enterprises of computer science and 
@@ -81,7 +81,7 @@ function MyResume() {
                             <br />Harvard University - David J. Malan
                         </p>
                     </div>
-                    <div className={classes.expand}>
+                    <div className={classes.expanded}>
                         <h3>FreeCode Camp</h3>
                         <p>
                             Responsive Web Design Certification <br />
@@ -89,14 +89,14 @@ function MyResume() {
                             Front End Developement Libraries Certification
                         </p>
                     </div>
-                    <div className={classes.expand}>
+                    <div className={classes.expanded}>
                         <h3>The Web Developer Bootcamp</h3>
                         <p>
                             Learned indept HTML, CSS, JavaScript, React, Node and MongoDB <br />
                             Course provider - Udemy
                         </p> 
                     </div>
-                    <div className={classes.expand}>
+                    <div className={classes.expanded}>
                         <h3>React - The Complete Guide</h3>
                         <p>
                             Deep dived into learning React, Hooks, Redux, React Router and Next.js
@@ -104,7 +104,7 @@ function MyResume() {
                         </p>
                     </div>
                 </div>
-                <div className={classes}>
+                <div>
                     <h1>Projects</h1>
                     <p>
                         Through Collaboration on Chingu, I built a Dino-Studio Educational App.
@@ -117,18 +117,18 @@ function MyResume() {
             <div className={classes.rightSide}>
                 <div className={classes.education}>
                     <h1>Education</h1>
-                    <div className={classes.expand}>
+                    <div className={classes.expanded}>
                         <h3>Delta State University</h3>
                         <span>B.sc Ed. (Chemistry Education)</span>
                     </div>
-                    <div className={classes.expand}>
+                    <div className={classes.expanded}>
                         <h3>College of Education</h3>
                         <span>National Certificate in Education (Physics/Chemistry)</span>
                     </div>
                 </div>
                 <div className={classes.strength}>
                     <h1>Strengths</h1>
-                    <div className={classes.expand}>
+                    <div className={classes.expanded}>
                         <h3>Eager to Learn New Skills</h3>
                         <p>
                             With the constant evolvement and changes in the world of technology, am
@@ -136,7 +136,7 @@ function MyResume() {
                             to grow with different framework and libraries.
                         </p>
                     </div>
-                    <div className={classes.expand}>
+                    <div className={classes.expanded}>
                         <h3>Collaboration</h3>
                         <p>
                             I always derive joy and satisfaction working with a team. Keeping in mind 
@@ -146,7 +146,6 @@ function MyResume() {
                         </p>
                     </div>
                 </div>
-
                 <div className={classes.summary}>
                     <h1>Summary</h1>
                     <p>
