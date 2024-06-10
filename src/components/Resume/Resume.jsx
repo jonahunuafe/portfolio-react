@@ -35,7 +35,7 @@ function MyResume() {
             </div>
         </header>
         <div className={classes.resume}>
-            <div className={classes.leftSide}>
+         
                 <div className={classes.skills}>
                     <h1>Skills</h1>
                     <div className={classes.expanded}>
@@ -81,8 +81,8 @@ function MyResume() {
                         <h3>CS50's Introduction to Computer Science</h3>
                         <p>
                             Gained insight into intellectual enterprises of computer science and 
-                            the art of programming.
-                            <br />Harvard University - David J. Malan
+                            the art of programming. <br />
+                            <span>Harvard University - David J. Malan</span>
                         </p>
                     </div>
                     <div className={classes.expanded}>
@@ -97,14 +97,15 @@ function MyResume() {
                         <h3>The Web Developer Bootcamp</h3>
                         <p>
                             Learned indept HTML, CSS, JavaScript, React, Node and MongoDB <br />
-                            Course provider - Udemy
+                            <span>Course provider - Udemy</span>
                         </p> 
                     </div>
                     <div className={classes.expanded}>
                         <h3>React - The Complete Guide</h3>
                         <p>
                             Deep dived into learning React, Hooks, Redux, React Router and Next.js
-                            <br /> Course provider - Udemy
+                            <br />
+                            <span>Course provider - Udemy</span>
                         </p>
                     </div>
                 </div>
@@ -117,8 +118,8 @@ function MyResume() {
                         <Link to="https://github.com/jonahunuafe"> Github page.</Link>
                     </p>
                 </div>
-            </div>
-            <div className={classes.rightSide}>
+            
+            
                 <div className={classes.education}>
                     <h1>Education</h1>
                     <div className={classes.expanded}>
@@ -159,7 +160,7 @@ function MyResume() {
                     </p>
                 </div>
             </div>
-        </div>
+        
     </>
   )
 }
