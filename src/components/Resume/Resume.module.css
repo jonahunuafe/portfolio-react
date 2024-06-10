@@ -71,10 +71,10 @@
     margin-bottom: 0.3rem;
 }
 
-.mainSkills {
+/* .mainSkills {
     display: flex;
     flex-direction: column;
-}
+} */
 
 .spanContainer {
     display: grid;
@@ -113,16 +113,22 @@
 
     .mainSkills {
         flex-direction: row;
-        gap: 2rem;
+        gap: 0rem;
+        margin-bottom: 1.5rem;
     }
 
-    .skills h3 {
+    /* .skills {
+        display: flex;
+        flex-direction: column;
+        gap: 3rem;
+    } */
+
+    /* .skills h3 {
         margin-bottom: 0rem;
-    }
+    } */
 
     .spanContainer {
         display: flex;
-        gap: 2rem;
     }
 
     .spanContainer > span {
@@ -130,7 +136,7 @@
         align-items: center;
     }
 
-    .nextjs {
+    /* .nextjs {
         margin: 0rem;
-    }
+    } */
 }

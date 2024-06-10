@@ -38,20 +38,24 @@ function MyResume() {
             <div className={classes.leftSide}>
                 <div className={classes.skills}>
                     <h1>Skills</h1>
-                    <div className={classes.mainSkills}>
+                    <div className={classes.expanded}>
                         <h3>Frontend Development |</h3>
                         <div className={classes.spanContainer}>
-                            <span><FaHtml5 /> HTML 5</span>
-                            <span><IoLogoCss3 /> CSS 3</span>
+                            <span><FaHtml5 /> HTML5</span>
+                            <span><IoLogoCss3 /> CSS3</span>
                             <span><IoLogoJavascript /> JavaScript</span>
                             <span><FaReact /> React</span>
                         </div>
                     </div>
-                    <div className={classes.mainSkills}>
+                    <div className={classes.expanded}>
                         <h3>Fullstack Application |</h3>
-                        <span className={classes.nextjs}><TbBrandNextjs /> Nextjs</span>
+                        <div>
+                            <span className={classes.nextjs}>
+                                <TbBrandNextjs /> Nextjs
+                            </span>
+                        </div>
                     </div>
-                    <div className={classes.mainSkills}>
+                    <div className={classes.expanded}>
                         <h3>Miscellaneous |</h3>
                         <div className={classes.spanContainer}>
                             <span><FaGitAlt /> Git</span>
