@@ -63,7 +63,7 @@ function MyResume() {
                 </div>
                 <div className={classes.experience}>
                     <h1>Experience</h1>
-                    <div>
+                    <div className={classes.exp}>
                         <h3>Chingu |</h3>
                         <span>
                             Collaborated with other developers on chingu and created a 

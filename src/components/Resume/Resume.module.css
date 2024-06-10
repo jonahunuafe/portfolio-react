@@ -98,22 +98,18 @@
     }
 
     .resume {
-        flex-direction: row;
-        justify-content: space-between;
         text-align: left;
+    }
+
+    .exp {
+        display: flex;
+        align-items: center;
+        gap: 2rem;
     }
 
     .mainSkills {
         flex-direction: row;
         gap: 2rem;
-    }
-
-    .summary, .strength {
-        width: 400px;
-    }
-
-    .experience, .training, .projects {
-        width: 80%;
     }
 
     .skills h3 {
