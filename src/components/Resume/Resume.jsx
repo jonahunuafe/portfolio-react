@@ -49,16 +49,9 @@ function MyResume() {
                             <span><FaGithub /> Github</span>
                             <span><IoIosCloudOutline /> Cloudinary</span>
                             <span><SiMongodb /> MongoDB</span>
+                            <span><TbBrandNextjs /> Nextjs</span>
                             <span>Bootstrap</span>
                             <span>Tailwindcss</span>
-                        </div>
-                    </div>
-                    <div className={classes.expanded}>
-                        <h3>Fullstack Application |</h3>
-                        <div>
-                            <span className={classes.nextjs}>
-                                <TbBrandNextjs /> Nextjs
-                            </span>
                         </div>
                     </div>
                 </div>
