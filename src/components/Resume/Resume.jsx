@@ -65,40 +65,6 @@ function MyResume() {
                         </p>
                     </div>
                 </div>
-                <div className={classes.training}>
-                    <h1>Training</h1>
-                    <div className={classes.expanded}>
-                        <h3>CS50's Introduction to Computer Science</h3>
-                        <p>
-                            Gained insight into intellectual enterprises of computer science and 
-                            the art of programming. <br />
-                            <span>Harvard University - David J. Malan</span>
-                        </p>
-                    </div>
-                    <div className={classes.expanded}>
-                        <h3>FreeCode Camp</h3>
-                        <p>
-                            Responsive Web Design Certification <br />
-                            Javascript Algorithms and Data Structures(Beta) Certification <br />
-                            Front End Developement Libraries Certification
-                        </p>
-                    </div>
-                    <div className={classes.expanded}>
-                        <h3>The Web Developer Bootcamp</h3>
-                        <p>
-                            Learned indept HTML, CSS, JavaScript, React, Node and MongoDB <br />
-                            <span>Course provider - Udemy</span>
-                        </p> 
-                    </div>
-                    <div className={classes.expanded}>
-                        <h3>React - The Complete Guide</h3>
-                        <p>
-                            Deep dived into learning React, Hooks, Redux, React Router and Next.js
-                            <br />
-                            <span>Course provider - Udemy</span>
-                        </p>
-                    </div>
-                </div>
                 <div className={classes.projects}>
                     <h1>Projects</h1>
                     <p>
