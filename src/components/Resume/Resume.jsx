@@ -107,14 +107,6 @@ function MyResume() {
                         </p>
                     </div>
                 </div>
-                <div className={classes.summary}>
-                    <h1>Summary</h1>
-                    <p>
-                        Entry level Frontend developer with 3years experience in maintaining and 
-                        building web pages. Seeking for new opportunities and challenges that
-                        will expand my skill set.
-                    </p>
-                </div>
             </div>
         
     </>
