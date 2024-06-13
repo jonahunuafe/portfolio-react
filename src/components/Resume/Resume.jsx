@@ -45,6 +45,12 @@ function MyResume() {
                             <span><IoLogoCss3 /> CSS3</span>
                             <span><IoLogoJavascript /> JavaScript</span>
                             <span><FaReact /> React</span>
+                            <span><FaGitAlt /> Git</span>
+                            <span><FaGithub /> Github</span>
+                            <span><IoIosCloudOutline /> Cloudinary</span>
+                            <span><SiMongodb /> MongoDB</span>
+                            <span>Bootstrap</span>
+                            <span>Tailwindcss</span>
                         </div>
                     </div>
                     <div className={classes.expanded}>
@@ -53,15 +59,6 @@ function MyResume() {
                             <span className={classes.nextjs}>
                                 <TbBrandNextjs /> Nextjs
                             </span>
-                        </div>
-                    </div>
-                    <div className={classes.expanded}>
-                        <h3>Miscellaneous |</h3>
-                        <div className={classes.spanContainer}>
-                            <span><FaGitAlt /> Git</span>
-                            <span><FaGithub /> Github</span>
-                            <span><IoIosCloudOutline /> Cloudinary</span>
-                            <span><SiMongodb /> MongoDB</span>
                         </div>
                     </div>
                 </div>
