@@ -56,7 +56,7 @@ function MyResume() {
                     </div>
                 </div>
                 <div className={classes.experience}>
-                    <h1>Experience</h1>
+                    <h1>Work Experience</h1>
                     <div className={classes.expanded}>
                         <h3>Chingu |</h3>
                         <p>
@@ -85,26 +85,6 @@ function MyResume() {
                     <div className={classes.expanded}>
                         <h3>College of Education</h3>
                         <span>National Certificate in Education (Physics/Chemistry)</span>
-                    </div>
-                </div>
-                <div className={classes.strength}>
-                    <h1>Strengths</h1>
-                    <div className={classes.expanded}>
-                        <h3>Eager to Learn New Skills</h3>
-                        <p>
-                            With the constant evolvement and changes in the world of technology, am
-                            constantly seeking to expand my skill set and also finding new ways 
-                            to grow with different framework and libraries.
-                        </p>
-                    </div>
-                    <div className={classes.expanded}>
-                        <h3>Collaboration</h3>
-                        <p>
-                            I always derive joy and satisfaction working with a team. Keeping in mind 
-                            the template of the job making sure assigned task are well understood and 
-                            delivered within the necessary time frame. Collaborating and working with 
-                            others has always been a good ground to learn new things.
-                        </p>
                     </div>
                 </div>
             </div>
