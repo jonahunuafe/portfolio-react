@@ -1,5 +1,4 @@
-import elegant_img from "../assets/images/elegant_img.png";
-import final_countdown_img from "../assets/images/final countdown.png"
+import elegant_img from "../assets/images/elegant_img";
 import placepicker_img from "../assets/images/placepicker.png";
 import projects_img from "../assets/images/projects.png";
 import reactfundamentals_img from "../assets/images/react-fundamentals.png";
@@ -47,7 +46,7 @@ const services = [
    },
 ]
 
-// full stack application
+
 
 export const mywork_data = [
    {
@@ -71,18 +70,18 @@ export const mywork_data = [
       w_img: designo_img,
       source_code: "https://github.com/jonahunuafe/designo-multi-page-website",
    },
-   // {
-   //    w_no: 4,
-   //    live_url: "",
-   //    w_techstack: "HTML, CSS, JAVASCRIPT, REACT",
-   //    w_img: final_countdown_img
-   // },
-   // {
-   //    w_no: 5,
-   //    live_url: "",
-   //    w_techstack: "HTML, CSS, JAVASCRIPT, REACT",
-   //    w_img: reactfundamentals_img
-   // },
+   {
+      w_no: 4,
+      live_url: "",
+      w_techstack: "HTML, CSS, JAVASCRIPT, REACT",
+      w_img: projects_img
+   },
+   {
+      w_no: 5,
+      live_url: "https://jonahunuafe.github.io/payapi-multi-page-website/",
+      w_techstack: "HTML, CSS, JAVASCRIPT",
+      w_img: 
+   },
    // {
    //    w_no: 6,
    //    live_url: "",
