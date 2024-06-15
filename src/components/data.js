@@ -1,7 +1,8 @@
 import elegant_img from "../assets/images/elegant_img";
 import placepicker_img from "../assets/images/placepicker.png";
 import projects_img from "../assets/images/projects.png";
-import reactfundamentals_img from "../assets/images/react-fundamentals.png";
+import payapi_img from "../assets/images/payapi_img.png";
+// import reactfundamentals_img from "../assets/images/react-fundamentals.png";
 import designo_img from "../assets/images/designo_img.png";
 import tvshow_img from "../assets/images/tvshow_img.png";
 import dino_img from "../assets/images/dino_img.png";
@@ -82,18 +83,12 @@ export const mywork_data = [
       w_techstack: "HTML, CSS, JAVASCRIPT",
       w_img: 
    },
-   // {
-   //    w_no: 6,
-   //    live_url: "",
-   //    w_techstack: "HTML, CSS, JAVASCRIPT, REACT",
-   //    w_img: projects_img
-   // },
-   // {
-   //    w_no: 7,
-   //    live_url: "https://place-picker-app.vercel.app",
-   //    w_techstack: "HTML, CSS, JAVASCRIPT, REACT",
-   //    w_img: placepicker_img
-   // },
+   {
+      w_no: 6,
+      live_url: "https://place-picker-app.vercel.app",
+      w_techstack: "HTML, CSS, JAVASCRIPT, REACT",
+      w_img: placepicker_img
+   },
 ]
 
 export default services;
