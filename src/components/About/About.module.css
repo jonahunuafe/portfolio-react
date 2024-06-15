@@ -27,6 +27,7 @@
 .resume {
    width: max-content;
    margin: auto;
+   margin-top: 2rem;
 }
 
 .resume a {

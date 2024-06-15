@@ -1,4 +1,4 @@
-import elegant_img from "../assets/images/elegant_img";
+// import elegant_img from "../assets/images/elegant_img";
 import placepicker_img from "../assets/images/placepicker.png";
 import projects_img from "../assets/images/projects.png";
 import payapi_img from "../assets/images/payapi_img.png";
