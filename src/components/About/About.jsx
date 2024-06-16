@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+// import resumeInPdf from "../../assets/images/junior-front-end-web-developer-resume-example.pdf";
 
 import classes from "./About.module.css";
 
@@ -30,11 +30,11 @@ const About = () => {
             </p>
          </div>
       </div>
-      <p className={classes.resume}>
-         <Link to="/resume">
-            My Resume
-         </Link>
-      </p>
+      {/* <p className={classes.resume}>
+         <a href={resumeInPdf}>
+            Download Resume
+         </a>
+      </p> */}
    </div>
   );
 }
