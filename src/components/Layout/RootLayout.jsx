@@ -1,5 +1,4 @@
 import React from 'react'
-import { Outlet } from 'react-router-dom'
 import Navbar from '../Navbar/Navbar'
 import Home from '../Home/Home'
 import About from '../About/About'
@@ -13,16 +12,15 @@ function RootLayout() {
     <div>
         <Navbar />
         <div className="overallContainer">
-            <Home />
-            <About />
-            <Services />
+          <Home />
+          <About />
+          <Services />
         </div>
         <Projects />
         <div className="overallContainer">
-            <Contact />
+          <Contact />
         </div>
         <Footer />
-        <Outlet />
     </div>
   )
 }
