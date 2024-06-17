@@ -1,5 +1,5 @@
 import React from 'react';
-// import resumeInPdf from "../../assets/images/junior-front-end-web-developer-resume-example.pdf";
+import resumeInPdf from "../../assets/images/cv.pdf";
 
 import classes from "./About.module.css";
 
@@ -30,11 +30,11 @@ const About = () => {
             </p>
          </div>
       </div>
-      {/* <p className={classes.resume}>
+      <p className={classes.resume}>
          <a href={resumeInPdf}>
             Download Resume
          </a>
-      </p> */}
+      </p>
    </div>
   );
 }
