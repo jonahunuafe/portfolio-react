@@ -31,7 +31,7 @@ const About = () => {
          </div>
       </div>
       <p className={classes.resume}>
-         <a href={resumeInPdf}>
+         <a href={resumeInPdf} download>
             Download Resume
          </a>
       </p>
