@@ -72,7 +72,7 @@ export const mywork_data = [
    },
    {
       w_no: 4,
-      live_url: "",
+      live_url: "https://project-manager-lake-five.vercel.app",
       w_techstack: "HTML, CSS, JAVASCRIPT, REACT",
       w_img: projects_img
    },
