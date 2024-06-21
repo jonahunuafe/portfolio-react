@@ -74,19 +74,22 @@ export const mywork_data = [
       w_no: 4,
       live_url: "https://project-manager-lake-five.vercel.app",
       w_techstack: "HTML, CSS, JAVASCRIPT, REACT",
-      w_img: projects_img
+      w_img: projects_img,
+      source_code: "https://github.com/jonahunuafe/project-manager"
    },
    {
       w_no: 5,
       live_url: "https://jonahunuafe.github.io/payapi-multi-page-website/",
       w_techstack: "HTML, CSS, JAVASCRIPT",
-      w_img: payapi_img
+      w_img: payapi_img,
+      source_code: "https://github.com/jonahunuafe/payapi-multi-page-website"
    },
    {
       w_no: 6,
       live_url: "https://place-picker-app.vercel.app",
       w_techstack: "HTML, CSS, JAVASCRIPT, REACT",
-      w_img: placepicker_img
+      w_img: placepicker_img, 
+      source_code: "https://github.com/jonahunuafe/place-picker-app"
    },
 ]
 
