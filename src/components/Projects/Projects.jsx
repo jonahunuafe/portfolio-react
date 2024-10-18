@@ -12,7 +12,7 @@ const Projects = () => {
    return (
       <div className={styles.myWork} id="projects">
          <div className="overallContainer">
-            <h1>Frontend Developer Portfolio</h1>
+            <h1>Full Stack Developer Portfolio</h1>
             <p>
                A collection of my featured projects. You can find more of my work on 
                <a href="https://github.com/jonahunuafe" target="_blank"> Github</a>.
