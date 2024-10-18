@@ -38,7 +38,7 @@ const services = [
    },
    {
       s_no: "08", 
-      s_name: "Fullstack Application"
+      s_name: "Full stack Application"
    },
    {
       s_no: "09", 

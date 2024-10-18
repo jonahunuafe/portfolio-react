@@ -12,13 +12,13 @@ const About = () => {
       <div className={classes.aboutSection}>
          <div className={classes.aboutPara}>
             <p>
-               I am a Frontend Developer with an unusual experience in transforming your 
+               I am a Full stack Developer with an unusual experience in transforming your 
                ideas, and consequently your aspirations through web technologies, into a 
                distinctive, interactive and user-friendly websites that both inspires you 
                and captivates your viewers...
             </p>
             <p>
-               My passion for frontend development is not only reflected in my extensive 
+               My passion for full stack development is not only reflected in my extensive 
                experience but also in the enthusiasm and dedication I bring to each project
                ensuring a seamless, efficient, and visually stunning web pages.
             </p>

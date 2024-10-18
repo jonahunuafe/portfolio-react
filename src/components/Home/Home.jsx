@@ -9,9 +9,9 @@ const Home = () => {
         <img src={jonah_img} alt="author's profile picture" />
       </div>
       <div className={classes.authorAction}>
-        <h1><span>Jonah Unuafe <br/></span> Frontend Developer.</h1>
+        <h1><span>Jonah Unuafe <br/></span> Full Stack Developer.</h1>
         <p>
-          I am a passionate frontend developer with 3years experience in web development 
+          I am a passionate full stack developer with 3years experience in web development 
           equipped with the web charisma of providing excellent user experiences, laced
           with knife cutting edge user interfaces.
         </p>
