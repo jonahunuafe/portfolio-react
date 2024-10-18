@@ -1,5 +1,5 @@
 import React from 'react';
-import resumeInPdf from "../../assets/images/resumeNE.pdf";
+import resumeInPdf from "../../assets/images/frontend.pdf";
 
 import classes from "./About.module.css";
 
